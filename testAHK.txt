@@ -1,0 +1,3 @@
+Numpad1::
+Send {MButton}
+Return
