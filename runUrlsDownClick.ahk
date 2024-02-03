@@ -9,6 +9,10 @@ Numpad1::
     scroll_stack := 0
 ;    loop_val := 2500 - (scroll_stack / 3 * 2 - 2) // need to solve
 
+
+
+    ;-----------------------------
+
     Loop, 4000 {
         ParseProduct(columnSide, scroll_stack)
         {
@@ -132,39 +136,68 @@ Numpad1::
             }
         }
 
+        if (scroll_stack == 0) {
+            Sleep, 100
+            SendMouse_AbsoluteMove(1616, 277) ; left product
+            Sleep, 1000
+            Click down right
+            Sleep, 200
+            SendMouse_AbsoluteMove(1626, 277)
+            Click up right
+            Sleep, 1000
+
+            res := ParseProduct("left", scroll_stack)
+
+            if (res == "GoToLeftProduct") {
+                Goto, LeftProduct
+            }
+
+            ;-------
+
+            Sleep, 100
+            SendMouse_AbsoluteMove(1616, 568) ; left product
+            Sleep, 1000
+            Click down right
+            Sleep, 200
+            SendMouse_AbsoluteMove(1626, 568)
+            Click up right
+            Sleep, 1000
+
+            res := ParseProduct("left", scroll_stack)
+
+            if (res == "GoToLeftProduct") {
+                Goto, LeftProduct
+            }
+
+            ;------------------------
+
+            Sleep, 100
+            SendMouse_AbsoluteMove(1840, 277)
+            Sleep, 1000
+            Click down left
+            SendMouse_AbsoluteMove(1830, 277)
+            Sleep, 200
+            Click up left
+            Sleep, 1000
+
+            res := ParseProduct("right", scroll_stack)
+
+            ;-------
+
+            Sleep, 100
+            SendMouse_AbsoluteMove(1840, 568)
+            Sleep, 1000
+            Click down left
+            SendMouse_AbsoluteMove(1830, 568)
+            Sleep, 200
+            Click up left
+            Sleep, 1000
+
+            res := ParseProduct("right", scroll_stack)
+        }
+
+
         LeftProduct:
-
-        Sleep, 100
-        SendMouse_AbsoluteMove(1616, 277) ; left product
-        Sleep, 1000
-        Click down right
-        Sleep, 200
-        SendMouse_AbsoluteMove(1626, 277)
-        Click up right
-        Sleep, 1000
-
-        res := ParseProduct("left", scroll_stack)
-
-        if (res == "GoToLeftProduct") {
-            Goto, LeftProduct
-        }
-
-        ;-------
-
-        Sleep, 100
-        SendMouse_AbsoluteMove(1616, 568) ; left product
-        Sleep, 1000
-        Click down right
-        Sleep, 200
-        SendMouse_AbsoluteMove(1626, 568)
-        Click up right
-        Sleep, 1000
-
-        res := ParseProduct("left", scroll_stack)
-
-        if (res == "GoToLeftProduct") {
-            Goto, LeftProduct
-        }
 
         ;-------
 
@@ -186,38 +219,6 @@ Numpad1::
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
         RightProduct:
-
-        Sleep, 100
-        SendMouse_AbsoluteMove(1840, 277)
-        Sleep, 1000
-        Click down left
-        SendMouse_AbsoluteMove(1830, 277)
-        Sleep, 200
-        Click up left
-        Sleep, 1000
-
-        res := ParseProduct("right", scroll_stack)
-
-        if (res == "GoToRightProduct") {
-            Goto, RightProduct
-        }
-
-        ;-------
-
-        Sleep, 100
-        SendMouse_AbsoluteMove(1840, 568)
-        Sleep, 1000
-        Click down left
-        SendMouse_AbsoluteMove(1830, 568)
-        Sleep, 200
-        Click up left
-        Sleep, 1000
-
-        res := ParseProduct("right", scroll_stack)
-
-        if (res == "GoToRightProduct") {
-            Goto, RightProduct
-        }
 
         ;-------
 
@@ -241,7 +242,7 @@ Numpad1::
 
         Sleep, 1000
         SendMouse_AbsoluteMove(1616, 277) ; left product
-        Loop, 14 {
+        Loop, 5 {
             Send {WheelDown}
             scroll_stack := scroll_stack + 1
             Sleep, 300
