@@ -9,14 +9,16 @@ Numpad1::
     scroll_stack := 0
 ;    loop_val := 2500 - (scroll_stack / 3 * 2 - 2) // need to solve
 
-
-
     ;-----------------------------
+
+    endLeftColorStack := 0
+    prevLeftColor := 0
 
     Loop, 4000 {
         ParseProduct(columnSide, scroll_stack)
         {
             StartParseProduct:
+            Sleep, 500
             SendMouse_AbsoluteMove(1800, 125)
 
             MouseGetPos, MouseX, MouseY
@@ -58,7 +60,7 @@ Numpad1::
                 while_stack := while_stack + 1
 
                 SendMouse_LeftClick()
-                Sleep, 700
+                Sleep, 1000
 
                 SendMouse_AbsoluteMove(1800, 125)
 
@@ -136,7 +138,7 @@ Numpad1::
             }
         }
 
-        if (scroll_stack == 0) {
+        if (scroll_stack == 3) {
             Sleep, 100
             SendMouse_AbsoluteMove(1616, 277) ; left product
             Sleep, 1000
@@ -203,6 +205,25 @@ Numpad1::
 
         Sleep, 100
         SendMouse_AbsoluteMove(1616, 860) ; left product
+
+        MouseGetPos, MouseX, MouseY
+        PixelGetColor, leftColor, %MouseX%, %MouseY%
+
+        MsgBox %leftColor% %prevLeftColor%
+
+        if (leftColor == prevLeftColor) {
+            endLeftColorStack := endLeftColorStack + 1
+
+            MsgBox end of list %endLeftColorStack%
+
+            if (endLeftColorStack == 6) {
+                MsgBox end of list leftColor
+                endLeftColorStack = 0
+            }
+        }
+
+        prevLeftColor := leftColor
+
         Sleep, 1000
         Click down right
         Sleep, 200
@@ -224,6 +245,14 @@ Numpad1::
 
         Sleep, 100
         SendMouse_AbsoluteMove(1840, 860)
+
+        MouseGetPos, MouseX, MouseY
+        PixelGetColor, rightColor, %MouseX%, %MouseY%
+
+        if (rightColor == "0xF7EEF0" or rightColor == "0xF0EEF7") {
+            MsgBox end of list
+        }
+
         Sleep, 1000
         Click down left
         SendMouse_AbsoluteMove(1830, 860)
@@ -241,7 +270,7 @@ Numpad1::
 
 
         Sleep, 1000
-        SendMouse_AbsoluteMove(1616, 277) ; left product
+        SendMouse_AbsoluteMove(1616, 860) ; left product
         Loop, 5 {
             Send {WheelDown}
             scroll_stack := scroll_stack + 1
