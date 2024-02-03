@@ -18,7 +18,7 @@ Numpad1::
         ParseProduct(columnSide, scroll_stack)
         {
             StartParseProduct:
-            Sleep, 500
+            Sleep, 1000
             SendMouse_AbsoluteMove(1800, 125)
 
             MouseGetPos, MouseX, MouseY
@@ -27,7 +27,7 @@ Numpad1::
 
             ;MsgBox The color at the current cursor position is %color%.
 
-            SendMouse_AbsoluteMove(1855, 118)
+            SendMouse_AbsoluteMove(1856, 117)
 
             Sleep, 500
 
@@ -35,6 +35,8 @@ Numpad1::
 
             while(color == old_out_color) ; While the pixel Color is the same
             {
+                Sleep, 500
+
                 if (while_stack > 25)
                 {
                     SendMouse_AbsoluteMove(1616, 277) ; left product
@@ -70,7 +72,7 @@ Numpad1::
 
                 ; MsgBox WHILE The color at the current cursor position is %newColor%.
 
-                SendMouse_AbsoluteMove(1855, 118)
+                SendMouse_AbsoluteMove(1856, 117)
             }
 
             Sleep, 1000
@@ -209,15 +211,10 @@ Numpad1::
         MouseGetPos, MouseX, MouseY
         PixelGetColor, leftColor, %MouseX%, %MouseY%
 
-        MsgBox %leftColor% %prevLeftColor%
-
         if (leftColor == prevLeftColor) {
             endLeftColorStack := endLeftColorStack + 1
 
-            MsgBox end of list %endLeftColorStack%
-
-            if (endLeftColorStack == 6) {
-                MsgBox end of list leftColor
+            if (endLeftColorStack == 10) {
                 endLeftColorStack := 0
             }
         } else {
