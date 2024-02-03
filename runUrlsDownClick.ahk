@@ -138,7 +138,7 @@ Numpad1::
             }
         }
 
-        if (scroll_stack == 3) {
+        if (scroll_stack == 0) {
             Sleep, 100
             SendMouse_AbsoluteMove(1616, 277) ; left product
             Sleep, 1000
@@ -218,8 +218,10 @@ Numpad1::
 
             if (endLeftColorStack == 6) {
                 MsgBox end of list leftColor
-                endLeftColorStack = 0
+                endLeftColorStack := 0
             }
+        } else {
+            endLeftColorStack := 0
         }
 
         prevLeftColor := leftColor
