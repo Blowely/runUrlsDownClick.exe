@@ -46,3 +46,26 @@ SendMouse_Wheel(w) { ; send mouse wheel movement, pos=forwards neg=backwards
 ;---------------------------------------------------------------------------
     DllCall("mouse_event", "UInt", 0x800, "UInt", 0, "UInt", 0, "UInt", w)
 }
+
+#Persistent ; Keep the script running
+SetBatchLines -1 ; Use maximum processing power
+
+SmoothMouseMove(TargetX, TargetY, Duration) {
+    CoordMode, Mouse, Screen
+    DllCall("SystemParametersInfo", UInt, 113, UInt, 0, UIntP, OriginalMouseMoveSpeed, UInt, 0)
+
+    StartX := A_CursorX
+    StartY := A_CursorY
+    Steps := Duration / 10
+
+    Loop % Steps {
+        Progress := A_Index / Steps
+        CurX := StartX + (TargetX - StartX) * Progress
+        CurY := StartY + (TargetY - StartY) * Progress
+        DllCall("mouse_event", UInt, 0x01, UInt, CurX, UInt, CurY, UInt, 0, Ptr, 0)
+        Sleep, 10
+    }
+
+    DllCall("mouse_event", UInt, 0x01, UInt, TargetX, UInt, TargetY, UInt, 0, Ptr, 0) ; Ensure the final position is reached
+    DllCall("SystemParametersInfo", UInt, 113, UInt, 0, UInt, OriginalMouseMoveSpeed, UInt, 0) ; Restore original mouse speed
+}

@@ -10,8 +10,9 @@ Numpad1::
 ;    loop_val := 2500 - (scroll_stack / 3 * 2 - 2) // need to solve
 
     Loop, 4000 {
-        ParseProduct(columnSide)
+        ParseProduct(columnSide, scroll_stack)
         {
+            StartParseProduct:
             SendMouse_AbsoluteMove(1800, 125)
 
             MouseGetPos, MouseX, MouseY
@@ -37,13 +38,7 @@ Numpad1::
 
                     Loop, % scroll_stack {
                         Send {WheelDown}
-    ;                    if (loop_i // 3 == 0 and loop_i != 0) {
-    ;                        Sleep, 500
-    ;                    } else {
-    ;                        Sleep, 100
-    ;                    }
                         Sleep, 300
-
                         loop_i++
                     }
 
@@ -59,7 +54,7 @@ Numpad1::
                 while_stack := while_stack + 1
 
                 SendMouse_LeftClick()
-                Sleep, 500
+                Sleep, 700
 
                 SendMouse_AbsoluteMove(1800, 125)
 
@@ -81,8 +76,26 @@ Numpad1::
 
             SendMouse_AbsoluteMove(1550, 530)
 
+            while_stack_back_to_products := 0
+
             while(color == old_out_color) ; While the pixel Color is the same
             {
+                if (while_stack_back_to_products > 35)
+                {
+                    SendMouse_AbsoluteMove(1556, 625)
+                    Sleep, 100
+
+                    Click down left
+                    Sleep, 100
+                    SmoothMouseMove(1716, 625, 2000)
+                    Sleep, 10000
+                    Click up left
+                    Sleep, 5000
+                    Goto, StartParseProduct
+                }
+
+                while_stack_back_to_products := while_stack_back_to_products + 1
+
                 SendMouse_LeftClick()
                 Sleep, 800
 
@@ -110,7 +123,7 @@ Numpad1::
                 SendMouse_AbsoluteMove(1496, 503)
                 Sleep, 100
                 SendMouse_LeftClick()
-                Sleep, 300
+                Sleep, 1000
 
                 SendMouse_AbsoluteMove(1815, 860)
                 MouseGetPos, MouseX, MouseY
@@ -130,7 +143,7 @@ Numpad1::
         Click up right
         Sleep, 1000
 
-        res := ParseProduct("left")
+        res := ParseProduct("left", scroll_stack)
 
         if (res == "GoToLeftProduct") {
             Goto, LeftProduct
@@ -147,7 +160,7 @@ Numpad1::
         Click up right
         Sleep, 1000
 
-        res := ParseProduct("left")
+        res := ParseProduct("left", scroll_stack)
 
         if (res == "GoToLeftProduct") {
             Goto, LeftProduct
@@ -164,7 +177,7 @@ Numpad1::
         Click up right
         Sleep, 1000
 
-        res := ParseProduct("left")
+        res := ParseProduct("left", scroll_stack)
 
         if (res == "GoToLeftProduct") {
             Goto, LeftProduct
@@ -183,7 +196,7 @@ Numpad1::
         Click up left
         Sleep, 1000
 
-        res := ParseProduct("right")
+        res := ParseProduct("right", scroll_stack)
 
         if (res == "GoToRightProduct") {
             Goto, RightProduct
@@ -200,7 +213,7 @@ Numpad1::
         Click up left
         Sleep, 1000
 
-        res := ParseProduct("right")
+        res := ParseProduct("right", scroll_stack)
 
         if (res == "GoToRightProduct") {
             Goto, RightProduct
@@ -217,7 +230,7 @@ Numpad1::
         Click up left
         Sleep, 1000
 
-        res := ParseProduct("right")
+        res := ParseProduct("right", scroll_stack)
 
         if (res == "GoToRightProduct") {
             Goto, RightProduct
