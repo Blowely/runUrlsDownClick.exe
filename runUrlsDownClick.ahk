@@ -14,6 +14,32 @@ Numpad1::
     endLeftColorStack := 0
     prevLeftColor := 0
 
+;    Sleep, 200
+;    SendMouse_AbsoluteMove(1865, 205)
+;    Sleep, 100
+;    SendMouse_LeftClick()
+;    Sleep, 500
+;
+;    Sleep, 200
+;    SendMouse_AbsoluteMove(1860, 165)
+;    Sleep, 400
+;    SendMouse_LeftClick()
+;    Sleep, 110
+;    SendRaw 548
+;
+;    Sleep, 2000
+;    SendMouse_AbsoluteMove(1707, 476)
+;    Sleep, 100
+;    MouseGetPos, MouseX, MouseY
+;    PixelGetColor, colorNotify, %MouseX%, %MouseY%
+;
+;    if (colorNotify != "0xFAF5F8") {
+;        MsgBox %colorNotify%
+;    }
+;
+;    Sleep, 3000
+;    return
+
     Loop, 4000 {
         ParseProduct(columnSide, scroll_stack)
         {
@@ -27,15 +53,15 @@ Numpad1::
 
             ;MsgBox The color at the current cursor position is %color%.
 
-            SendMouse_AbsoluteMove(1856, 117)
+            SendMouse_AbsoluteMove(1858, 115)
 
-            Sleep, 500
+            Sleep, 200
 
             while_stack := 0
 
             while(color == old_out_color) ; While the pixel Color is the same
             {
-                Sleep, 500
+                Sleep, 1600
 
                 if (while_stack > 25)
                 {
@@ -62,7 +88,7 @@ Numpad1::
                 while_stack := while_stack + 1
 
                 SendMouse_LeftClick()
-                Sleep, 1000
+                Sleep, 700
 
                 SendMouse_AbsoluteMove(1800, 125)
 
@@ -72,7 +98,7 @@ Numpad1::
 
                 ; MsgBox WHILE The color at the current cursor position is %newColor%.
 
-                SendMouse_AbsoluteMove(1856, 117)
+                SendMouse_AbsoluteMove(1858, 115)
             }
 
             Sleep, 1000
