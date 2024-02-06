@@ -61,7 +61,7 @@ Numpad1::
 
             while(color == old_out_color) ; While the pixel Color is the same
             {
-                Sleep, 1600
+                Sleep, 2000
 
                 if (while_stack > 25)
                 {
@@ -129,7 +129,7 @@ Numpad1::
                 }
 
                 while_stack_back_to_products := while_stack_back_to_products + 1
-
+                Sleep, 200
                 SendMouse_LeftClick()
                 Sleep, 800
 
