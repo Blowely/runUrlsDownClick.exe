@@ -177,7 +177,7 @@ Numpad1::
             }
         }
 
-        if (scroll_stack == -1) {
+        if (scroll_stack == 0) {
             SendMouse_AbsoluteMove(1810, 873)
             Sleep, 100
             MouseGetPos, MouseX, MouseY
@@ -304,7 +304,7 @@ Numpad1::
         PixelGetColor, newColor, %MouseX%, %MouseY%
         old_out_color := newColor
 
-        while (old_out_color != "0xCDCD3D" and old_out_color != "0xCFCC3E") {
+        while (old_out_color != "0xCDCD3D" and old_out_color != "0xCFCC3E" and old_out_color != "0xCFCC3D" and old_out_color != "0xCССС3С") {
             Sleep, 100
             SendMouse_AbsoluteMove(1616, 860) ; left product
 
@@ -328,13 +328,27 @@ Numpad1::
             Sleep, 100
             SendMouse_AbsoluteMove(1626, 860)
             Click up right
-            Sleep, 2000
+            Sleep, 2500
+
+            SendMouse_AbsoluteMove(1875, 185)
+            Sleep, 100
+            MouseGetPos, MouseX, MouseY
+            PixelGetColor, testColor, %MouseX%, %MouseY%
+
+            if (testColor == "0xC5C33D" or testColor == "0xC5C43C" or testColor == "0xC5C43B" or testColor == "0xC3C43C" or testColor == "0xC3C43D") {
+                Sleep, 100
+                SendMouse_AbsoluteMove(1496, 503)
+                Sleep, 100
+                SendMouse_LeftClick()
+                Sleep, 500
+            }
 
             SendMouse_AbsoluteMove(1810, 873)
             Sleep, 100
             MouseGetPos, MouseX, MouseY
             PixelGetColor, newColor, %MouseX%, %MouseY%
             old_out_color := newColor
+            MsgBox newColor %newColor%
 
             if (newColor == "0xFAF5F8") {
                 Sleep, 3000
@@ -346,19 +360,6 @@ Numpad1::
             }
 
             if (newColor == "0xC5C43C") {
-                Sleep, 100
-                SendMouse_AbsoluteMove(1496, 503)
-                Sleep, 100
-                SendMouse_LeftClick()
-                Sleep, 500
-            }
-
-            SendMouse_AbsoluteMove(1875, 185)
-            Sleep, 100
-            MouseGetPos, MouseX, MouseY
-            PixelGetColor, testColor, %MouseX%, %MouseY%
-
-            if (testColor == "0xC5C33D" or testColor == "0xC5C43C" or testColor == "0xC5C43B" or testColor == "0xC3C43C" or testColor == "0xC3C43D") {
                 Sleep, 100
                 SendMouse_AbsoluteMove(1496, 503)
                 Sleep, 100
@@ -387,7 +388,7 @@ Numpad1::
         PixelGetColor, newColor, %MouseX%, %MouseY%
         old_out_color := newColor
 
-        while (old_out_color != "0xCDCD3D" and old_out_color != "0xCFCC3E") {
+        while (old_out_color != "0xCDCD3D" and old_out_color != "0xCFCC3E" and old_out_color != "0xCFCC3D" and old_out_color != "0xCССС3С") {
             Sleep, 100
             SendMouse_AbsoluteMove(1840, 860)
 
@@ -403,13 +404,27 @@ Numpad1::
             Sleep, 100
             SendMouse_AbsoluteMove(1830, 860)
             Click up left
-            Sleep, 2000
+            Sleep, 2500
+
+            SendMouse_AbsoluteMove(1875, 185)
+            Sleep, 100
+            MouseGetPos, MouseX, MouseY
+            PixelGetColor, testColor, %MouseX%, %MouseY%
+
+            if (testColor == "0xC5C33D" or testColor == "0xC5C43C" or testColor == "0xC5C43B" or testColor == "0xC3C43C" or testColor == "0xC3C43D") {
+                Sleep, 100
+                SendMouse_AbsoluteMove(1496, 503)
+                Sleep, 100
+                SendMouse_LeftClick()
+                Sleep, 500
+            }
 
             SendMouse_AbsoluteMove(1810, 873)
             Sleep, 100
             MouseGetPos, MouseX, MouseY
             PixelGetColor, newColor, %MouseX%, %MouseY%
             old_out_color := newColor
+            MsgBox newColor2 %newColor%
 
             if (newColor == "0xFAF5F8") {
                 Sleep, 3000
@@ -420,19 +435,6 @@ Numpad1::
                 old_out_color := newColor
             }
             if (newColor == "0xC5C43C") {
-                Sleep, 100
-                SendMouse_AbsoluteMove(1496, 503)
-                Sleep, 100
-                SendMouse_LeftClick()
-                Sleep, 500
-            }
-
-            SendMouse_AbsoluteMove(1875, 185)
-            Sleep, 100
-            MouseGetPos, MouseX, MouseY
-            PixelGetColor, testColor, %MouseX%, %MouseY%
-
-            if (testColor == "0xC5C33D" or testColor == "0xC5C43C" or testColor == "0xC5C43B" or testColor == "0xC3C43C" or testColor == "0xC3C43D") {
                 Sleep, 100
                 SendMouse_AbsoluteMove(1496, 503)
                 Sleep, 100
