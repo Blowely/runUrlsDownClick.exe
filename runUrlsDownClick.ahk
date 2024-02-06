@@ -349,7 +349,6 @@ Numpad1::
             MouseGetPos, MouseX, MouseY
             PixelGetColor, newColor, %MouseX%, %MouseY%
             old_out_color := newColor
-            MsgBox newColor %newColor%
 
             if (newColor == "0xFAF5F8") {
                 Sleep, 3000
@@ -426,7 +425,6 @@ Numpad1::
             MouseGetPos, MouseX, MouseY
             PixelGetColor, newColor, %MouseX%, %MouseY%
             old_out_color := newColor
-            MsgBox newColor2 %newColor%
 
             if (newColor == "0xFAF5F8") {
                 Sleep, 3000
