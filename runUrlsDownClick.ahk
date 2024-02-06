@@ -177,7 +177,7 @@ Numpad1::
             }
         }
 
-        if (scroll_stack == 0) {
+        if (scroll_stack == -1) {
             SendMouse_AbsoluteMove(1810, 873)
             Sleep, 100
             MouseGetPos, MouseX, MouseY
@@ -304,7 +304,8 @@ Numpad1::
         PixelGetColor, newColor, %MouseX%, %MouseY%
         old_out_color := newColor
 
-        while (old_out_color != "0xCDCD3D" and old_out_color != "0xCFCC3E" and old_out_color != "0xCFCC3D" and old_out_color != "0xCССС3С") {
+        while (old_out_color != "0xCDCD3D" and old_out_color != "0xCFCC3E" and old_out_color != "0xCFCC3D"
+            and old_out_color != "0xCССС3С" and old_out_color != "0xCECC3D") {
             Sleep, 100
             SendMouse_AbsoluteMove(1616, 860) ; left product
 
@@ -388,7 +389,8 @@ Numpad1::
         PixelGetColor, newColor, %MouseX%, %MouseY%
         old_out_color := newColor
 
-        while (old_out_color != "0xCDCD3D" and old_out_color != "0xCFCC3E" and old_out_color != "0xCFCC3D" and old_out_color != "0xCССС3С") {
+        while (old_out_color != "0xCDCD3D" and old_out_color != "0xCFCC3E" and old_out_color != "0xCFCC3D"
+            and old_out_color != "0xCССС3С" and old_out_color != "0xCECC3D") {
             Sleep, 100
             SendMouse_AbsoluteMove(1840, 860)
 
