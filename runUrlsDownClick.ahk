@@ -103,7 +103,7 @@ Numpad1::
 
             Sleep, 1000
 
-            SendMouse_AbsoluteMove(1800, 125)
+            SendMouse_AbsoluteMove(1810, 842)
             MouseGetPos, MouseX, MouseY
             PixelGetColor, color, %MouseX%, %MouseY%
             old_out_color := color
@@ -133,7 +133,7 @@ Numpad1::
                 SendMouse_LeftClick()
                 Sleep, 800
 
-                SendMouse_AbsoluteMove(1800, 125)
+                SendMouse_AbsoluteMove(1810, 842)
 
                 MouseGetPos, MouseX, MouseY
                 PixelGetColor, newColor, %MouseX%, %MouseY%
