@@ -177,122 +177,6 @@ Numpad1::
             }
         }
 
-        if (scroll_stack == -1) {
-            SendMouse_AbsoluteMove(1810, 873)
-            Sleep, 100
-            MouseGetPos, MouseX, MouseY
-            PixelGetColor, newColor, %MouseX%, %MouseY%
-            old_out_color := newColor
-
-            while (old_out_color != "0xCDCD3D") {
-                Sleep, 100
-                SendMouse_AbsoluteMove(1616, 277) ; left product
-                Sleep, 1000
-                Click down right
-                Sleep, 200
-                SendMouse_AbsoluteMove(1626, 277)
-                Click up right
-                Sleep, 2000
-
-                SendMouse_AbsoluteMove(1810, 873)
-                Sleep, 100
-                MouseGetPos, MouseX, MouseY
-                PixelGetColor, color, %MouseX%, %MouseY%
-                old_out_color := color
-            }
-
-            res := ParseProduct("left", scroll_stack)
-
-            if (res == "GoToLeftProduct") {
-                Goto, LeftProduct
-            }
-
-            ;-------
-
-            SendMouse_AbsoluteMove(1810, 873)
-            Sleep, 100
-            MouseGetPos, MouseX, MouseY
-            PixelGetColor, newColor, %MouseX%, %MouseY%
-            old_out_color := newColor
-
-            while (old_out_color != "0xCDCD3D") {
-                Sleep, 100
-                SendMouse_AbsoluteMove(1616, 568) ; left product
-                Sleep, 1000
-                Click down right
-                Sleep, 200
-                SendMouse_AbsoluteMove(1626, 568)
-                Click up right
-                Sleep, 2000
-
-                SendMouse_AbsoluteMove(1810, 873)
-                Sleep, 100
-                MouseGetPos, MouseX, MouseY
-                PixelGetColor, color, %MouseX%, %MouseY%
-                old_out_color := color
-            }
-
-            res := ParseProduct("left", scroll_stack)
-
-            if (res == "GoToLeftProduct") {
-                Goto, LeftProduct
-            }
-
-            ;------------------------
-
-            SendMouse_AbsoluteMove(1810, 873)
-            Sleep, 100
-            MouseGetPos, MouseX, MouseY
-            PixelGetColor, newColor, %MouseX%, %MouseY%
-            old_out_color := newColor
-
-            while (old_out_color != "0xCDCD3D") {
-                Sleep, 100
-                SendMouse_AbsoluteMove(1840, 277)
-                Sleep, 1000
-                Click down left
-                SendMouse_AbsoluteMove(1830, 277)
-                Sleep, 200
-                Click up left
-                Sleep, 2000
-
-                SendMouse_AbsoluteMove(1810, 873)
-                Sleep, 100
-                MouseGetPos, MouseX, MouseY
-                PixelGetColor, color, %MouseX%, %MouseY%
-                old_out_color := color
-            }
-
-            res := ParseProduct("right", scroll_stack)
-
-            ;-------
-
-            SendMouse_AbsoluteMove(1810, 873)
-            Sleep, 100
-            MouseGetPos, MouseX, MouseY
-            PixelGetColor, newColor, %MouseX%, %MouseY%
-            old_out_color := newColor
-
-            while (old_out_color != "0xCDCD3D") {
-                Sleep, 100
-                SendMouse_AbsoluteMove(1840, 568)
-                Sleep, 1000
-                Click down left
-                SendMouse_AbsoluteMove(1830, 568)
-                Sleep, 200
-                Click up left
-                Sleep, 2000
-
-                SendMouse_AbsoluteMove(1810, 873)
-                Sleep, 100
-                MouseGetPos, MouseX, MouseY
-                PixelGetColor, color, %MouseX%, %MouseY%
-                old_out_color := color
-            }
-
-            res := ParseProduct("right", scroll_stack)
-        }
-
 
         LeftProduct:
 
@@ -425,7 +309,7 @@ Numpad1::
             MouseGetPos, MouseX, MouseY
             PixelGetColor, newColor, %MouseX%, %MouseY%
             old_out_color := newColor
-
+            MsgBox newColor %newColor%
             if (newColor == "0xFAF5F8") {
                 Sleep, 3000
                 SendMouse_AbsoluteMove(1810, 873)
