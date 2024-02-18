@@ -135,7 +135,7 @@ Numpad1::
             PixelGetColor, color3, %MouseX%, %MouseY%
             old_out_color3 := color3
 
-            while (old_out_color3 == "0xCDCD3D")
+            while (old_out_color3 == color3)
             {
                 Sleep, 1000
                 SendMouse_AbsoluteMove(1496, 503)
