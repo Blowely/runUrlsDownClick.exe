@@ -72,7 +72,7 @@ Numpad1::
 
 /*                if (old_out_color != "0xFAF5F8" and old_out_color != "0xF2EFF0" and old_out_color != "0xCDCD3D") {
                     while (newColor == old_out_color and old_out_color != "0xFAF5F8" and old_out_color != "0xF2EFF0" and old_out_color != "0xCDCD3D") {
-                        SendMouse_AbsoluteMove(1612, 943)
+                        SendMouse_AbsoluteMove(1550, 413)
                         Sleep, 1500
                         SendMouse_LeftClick()
                         Sleep, 2000
@@ -133,6 +133,12 @@ Numpad1::
 
             ;Sleep, 800
 
+            SendMouse_AbsoluteMove(1600, 247)
+            Sleep, 500
+            SendMouse_LeftClick()
+            Sleep, 100
+            Send ^v
+
             SendMouse_AbsoluteMove(1783, 883)
             MouseGetPos, MouseX, MouseY
             PixelGetColor, color3, %MouseX%, %MouseY%
@@ -141,7 +147,7 @@ Numpad1::
             while (old_out_color3 == color3)
             {
                 Sleep, 1000
-                SendMouse_AbsoluteMove(1612, 943)
+                SendMouse_AbsoluteMove(1550, 413)
 
                 SendMouse_LeftClick()
                 Sleep, 500
