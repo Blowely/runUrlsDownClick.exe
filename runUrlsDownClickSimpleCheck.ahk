@@ -69,16 +69,16 @@ Numpad1::
                 old_out_color := newColor
 
                 if (old_out_color != "0xFAF5F8" and old_out_color != "0xF2EFF0" and old_out_color != "0xCDCD3D") {
-                    while (newColor == old_out_color) {
+                    while (newColor == old_out_color and old_out_color != "0xFAF5F8" and old_out_color != "0xF2EFF0" and old_out_color != "0xCDCD3D") {
                         SendMouse_AbsoluteMove(1496, 503)
                         Sleep, 1500
                         SendMouse_LeftClick()
-                        Sleep, 1500
+                        Sleep, 2000
 
                         SendMouse_AbsoluteMove(1810, 873)
                         MouseGetPos, MouseX, MouseY
-                        PixelGetColor, newColor1, %MouseX%, %MouseY%
-                        old_out_color := newColor1
+                        PixelGetColor, newColor2, %MouseX%, %MouseY%
+                        old_out_color := newColor2
                     }
 
                     Goto, StartParseProduct
