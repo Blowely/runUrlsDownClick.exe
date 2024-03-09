@@ -136,7 +136,7 @@ Numpad1::
             SendMouse_AbsoluteMove(1600, 247)
             Sleep, 500
             SendMouse_LeftClick()
-            Sleep, 200
+            Sleep, 300
             Send ^v
 
             SendMouse_AbsoluteMove(1783, 883)
