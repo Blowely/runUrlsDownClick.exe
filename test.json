@@ -2,18 +2,168 @@
   "msg": "ok",
   "code": 200,
   "data": {
-    "seriesProperties": {},
+    "seriesProperties": {
+      "shoesApplySuggest": {
+        "matchInfo": {
+          "matchLevel": -1,
+          "matchContentPrefix": "完善跑步档案，看看这双鞋是否适合你",
+          "matchDesc": "",
+          "headPic": "https://qiniu.dewucdn.com/FshWfBCVKCxQo8wKvgYQByUjpNmU",
+          "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg"
+        },
+        "applyList": [{
+          "selectList": [{
+            "underLine": false,
+            "name": "入门跑",
+            "optionId": 40991,
+            "selected": true,
+            "desc": "<30km/月"
+          }, {
+            "underLine": false,
+            "name": "进阶跑",
+            "optionId": 41002,
+            "selected": true,
+            "desc": "30-100km/月"
+          }, {
+            "underLine": false,
+            "name": "高阶跑",
+            "optionId": 40999,
+            "selected": true,
+            "desc": ">100km/月"
+          }],
+          "name": "跑步阶段",
+          "showType": 1,
+          "propertyId": 1083538
+        }, {
+          "image": {
+            "width": 1125,
+            "url": "https://cdn.poizon.com/node-common/9bf94a21-9904-506c-4497-970ab6ca1a7b-1125-585.png",
+            "height": 585
+          },
+          "selectList": [{
+            "underLine": false,
+            "name": "中小体重",
+            "optionId": 40989,
+            "selected": true,
+            "desc": ""
+          }, {
+            "underLine": false,
+            "name": "大体重",
+            "optionId": 40990,
+            "selected": true,
+            "desc": ""
+          }],
+          "name": "适用体重",
+          "showType": 1,
+          "imageTitle": "如何判断体重",
+          "propertyId": 1083540
+        }, {
+          "selectList": [{
+            "underLine": false,
+            "name": "跑步机",
+            "optionId": 40994,
+            "selected": false,
+            "desc": ""
+          }, {
+            "underLine": false,
+            "name": "塑胶跑道",
+            "optionId": 40993,
+            "selected": true,
+            "desc": ""
+          }, {
+            "underLine": false,
+            "name": "公路",
+            "optionId": 40995,
+            "selected": true,
+            "desc": ""
+          }, {
+            "underLine": false,
+            "name": "山地户外",
+            "optionId": 40992,
+            "selected": true,
+            "desc": ""
+          }],
+          "name": "适用场地",
+          "showType": 1,
+          "propertyId": 1083447
+        }, {
+          "image": {
+            "width": 1125,
+            "url": "https://cdn.poizon.com/node-common/4c6fa8c2-a2aa-2875-8b7b-33fedf3dbecb-1125-669.png",
+            "height": 669
+          },
+          "selectList": [{
+            "underLine": false,
+            "name": "窄脚",
+            "optionId": 40998,
+            "selected": true,
+            "desc": ""
+          }, {
+            "underLine": false,
+            "name": "正常",
+            "optionId": 41001,
+            "selected": true,
+            "desc": ""
+          }, {
+            "underLine": false,
+            "name": "宽脚",
+            "optionId": 40996,
+            "selected": true,
+            "desc": ""
+          }],
+          "name": "适用脚宽",
+          "showType": 1,
+          "imageTitle": "如何判断脚宽",
+          "propertyId": 1083537
+        }, {
+          "image": {
+            "width": 1125,
+            "url": "https://cdn.poizon.com/node-common/ec741bc4-126b-f03d-e89f-074db64fc334-1125-1144.png",
+            "height": 1144
+          },
+          "selectList": [{
+            "underLine": false,
+            "name": "足外翻",
+            "optionId": 41000,
+            "selected": false,
+            "desc": ""
+          }, {
+            "underLine": false,
+            "name": "正常",
+            "optionId": 41001,
+            "selected": true,
+            "desc": ""
+          }, {
+            "underLine": false,
+            "name": "足内翻",
+            "optionId": 40997,
+            "selected": true,
+            "desc": ""
+          }],
+          "name": "适用足型",
+          "showType": 1,
+          "imageTitle": "如何判断足型",
+          "propertyId": 1083539
+        }, {
+          "name": "鞋身重量",
+          "showType": 0,
+          "propertyId": 1083485,
+          "content": "单只42码275g（相当于一盒牛奶）"
+        }],
+        "title": "选鞋助手"
+      }
+    },
     "shareInfo": {
-      "shareLinkUrl": "https://cdn-m.dewu.com/router/product/ProductDetail?spuId=3087591&sourceName=shareDetail",
-      "miniShareLinkUrl": "/product/ProductDetail?spuId=3087591&sourceName=shareDetail",
-      "threeDLinkUrl": "https://cdn-m.dewu.com/router/product/ProductDetail?spuId=3087591&sourceName=shareDetail&shareSource=productDetail"
+      "shareLinkUrl": "https://cdn-m.dewu.com/router/product/ProductDetail?spuId=2905539&sourceName=shareDetail",
+      "miniShareLinkUrl": "/product/ProductDetail?spuId=2905539&sourceName=shareDetail",
+      "threeDLinkUrl": "https://cdn-m.dewu.com/router/product/ProductDetail?spuId=2905539&sourceName=shareDetail&shareSource=productDetail"
     },
     "lastSold": {
-      "tinySoldNumText": "67人付款",
-      "lastSoldText": "得*2月10日购买了44.5",
-      "lastSoldWeakenText": "2月10日购买",
-      "contentText": "67人付款",
-      "avatar": "https://qiniu.dewucdn.com/FopKJAJnH2BCZ5M2MId0OmBVkvdp"
+      "tinySoldNumText": "176人付款",
+      "lastSoldText": "叫*31分钟前购买了41",
+      "lastSoldWeakenText": "31分钟前购买",
+      "contentText": "176人付款",
+      "avatar": "http://qiniu.dewucdn.com/icon_byte2771byte_56a5f612d0d87_w100h100.jpg"
     },
     "userGrowthLevelInfo": {
       "exclusiveUser": false
@@ -67,58 +217,67 @@
       "miniImageListType": 2,
       "list": [{
         "propertyValueId": 0,
-        "spuId": 3087591,
-        "title": "【定制球鞋】 Nike Court Vision 1 空军一号 橙色动感二次元 漫画风 街头嘻哈 手绘喷绘 情侣款 低帮 板鞋 男款 黑橙白",
-        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
-        "configColor": "黑/白/橙",
-        "goodsType": 0
+        "spuId": 2905539,
+        "title": "Nike Pegasus Trail 4 运动 低帮 跑步鞋 男款 黑色",
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
+        "goodsType": 0,
+        "configColor": "黑色"
       }, {
-        "propertyValueId": 208378633,
-        "spuId": 3659921,
-        "title": "【定制球鞋】 Nike Court Vision 1 捣蛋 小熊猫 解构绑带 简约工业风 低帮 板鞋 男款 黑白",
-        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20221111/33309d4711f1474c8fa1066fc0a13ca8.jpg",
-        "configColor": "白黑",
-        "goodsType": 0
+        "propertyValueId": 0,
+        "spuId": 3377586,
+        "title": "Nike Pegasus Trail 4 防滑耐磨轻便 低帮 跑步鞋 黑蓝",
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220914/d289e7bbd6df4c7faa39a3ab5a0f154f.jpg",
+        "goodsType": 0,
+        "configColor": "黑/蓝"
       }, {
-        "propertyValueId": 207422322,
-        "spuId": 3637326,
-        "title": "【定制球鞋】 Nike Court Vision 1 Low 双勾 黑白熊猫捣蛋 解构绑带 极简工业风 低帮 板鞋 男款 黑白",
-        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20221107/c4d4f166850e467aa45d11b959f260a9.jpg",
-        "configColor": "白色",
-        "goodsType": 0
+        "propertyValueId": 0,
+        "spuId": 3006122,
+        "title": "Nike Pegasus Trail 4 越野 低帮 跑步鞋 男款 黑红",
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220704/88ba481c9d4c48c18c87b3d18fac83d5.jpg",
+        "goodsType": 0,
+        "configColor": "黑/红"
       }, {
-        "propertyValueId": 208662818,
-        "spuId": 3664569,
-        "title": "【定制球鞋】 Nike Court Vision 1 焦糖拿铁 解构绑带 复古告白 低帮 板鞋 男款 白棕",
-        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20221112/89b5f2f7719b4c5588bffb9f80b21ed3.jpg",
-        "configColor": "白色",
-        "goodsType": 0
+        "propertyValueId": 0,
+        "spuId": 2959219,
+        "title": "Nike Pegasus Trail 4 React 越野 低帮 跑步鞋 男款 深宝蓝",
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220622/83e574dd9309486495321b822d950150.jpg",
+        "goodsType": 0,
+        "configColor": "深宝蓝/峡谷绿"
+      }, {
+        "propertyValueId": 0,
+        "spuId": 2829189,
+        "title": "Nike Pegasus Trail 4 越野 低帮 跑步鞋 男款 灰绿",
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220806/bf59bfda0076454bb25a978129130afa.jpg",
+        "goodsType": 0,
+        "configColor": "灰/绿"
       }],
       "type": 0
     },
     "price": {
       "item": {
-        "floorPrice": 79900,
-        "originalPrice": 79900,
+        "floorPrice": 63100,
+        "originalPrice": 57900,
         "nonGlobalOriginalPrice": 79900,
-        "saleInventoryNo": "SN101674523142PS25",
+        "saleInventoryNo": "SN102573174619PS03",
         "type": 1,
         "taxInfo": {
-          "includeTax": false
+          "preTaxText": "≈",
+          "includeTax": true,
+          "afterTaxText": "已含税"
         },
-        "includeTax": false,
+        "includeTax": true,
         "activityPrice": 0,
-        "price": 79900,
+        "price": 63100,
         "upperPrice": 0,
         "maxPrice": 0,
         "intentPrice": 0,
         "haveBrandBid": false,
-        "skuId": 613051286,
-        "tradeType": 4
+        "skuId": 611961566,
+        "tradeType": 3
       },
       "newDiscountInfo": {
         "optimalDiscount": {
-          "optimalPriceWithReachable": 79900
+          "optimalPriceWithReachable": 63100
         },
         "canOpenDiscountFloat": false
       },
@@ -128,12 +287,12 @@
     "configInfo": {
       "relationTrendNum": 2,
       "hideContentStatisticsLastSold": false,
-      "defaultPropertyValueId": 178744653,
+      "defaultPropertyValueId": 167673577,
       "categoryCyclopediaLayerName": "参数百科",
       "qaGuide": "问答升级为讨论，快来聊聊吧",
       "specialLogicTypeMap": {},
-      "noPriceText": "暂时缺货",
       "hasArMakeup": false,
+      "noPriceText": "暂时缺货",
       "buttonConfig": {
         "myOwn": {
           "isShow": true
@@ -149,27 +308,28 @@
         }
       },
       "findSimilarText": "找相似",
-      "appraiseScore": "0.00",
+      "appraiseScore": "9.00",
       "defaultPropertyValueFlag": false,
       "myOwnDetailGuideText": "已经拥有它就来记录下吧！",
-      "serverTime": 1711382070315,
-      "sizeInfoRecommendText": "查看尺码表",
-      "myOwnOverallGuideText": "你拥有的单品都在这里",
+      "serverTime": 1711388829262,
+      "appraiseGuide": "点击查看全部评价",
+      "sizeInfoRecommendText": "已购用户反馈此款鞋偏小，建议购买偏大尺码",
       "floatLayerGood": false,
-      "ypysFlag": true,
+      "myOwnOverallGuideText": "你拥有的单品都在这里",
+      "ypysFlag": false,
       "oldSizeInfo": "查看尺码表",
-      "newUserFlag": false,
       "hasSizeTable": true,
+      "newUserFlag": false,
       "useLevelImageUrl": true,
       "spuHasBids": true,
       "multipleSpuShow": false,
       "hasVoteIcon": "https://cdn.poizon.com/node-common/56f74081-90b3-4f0b-7659-07d3e28424cc-42-42.png",
       "salePvSelectText": "请选择",
       "cspuFlag": false,
+      "qaNum": 1,
       "noVoteIcon": "https://cdn.poizon.com/node-common/880667c2-b028-2edb-bfff-7ec0bbf489a3-42-42.png",
-      "qaNum": 2,
       "colorSwitcherSize": 44,
-      "appraiseShowNum": 0,
+      "appraiseShowNum": 164,
       "sizeFlag": 3,
       "floatLayerType": 0,
       "offlineText": "已下架",
@@ -177,6 +337,18 @@
       "salePvSelectLimitUp": 2,
       "skuOutStockText": "所选规格缺货",
       "hideSimilarGoods": false
+    },
+    "priceHugeDiff": {
+      "catFactor": "catShow",
+      "contentText": "为什么不同尺码不同价",
+      "bidFactor": "YPNS",
+      "userLimitUp": 10,
+      "type": "sizePrice",
+      "userFactor": "catNewUser",
+      "biddingMode": "YPNS:catShow_29:catNewUser",
+      "tips": {
+        "contentText": "不同尺码背后报价商家不同，受市场供需影响，价格也有差异"
+      }
     },
     "floorsModel": [{
       "ext": {},
@@ -201,10 +373,15 @@
     }],
     "contentStatisticsModel": {
       "contentItems": [{
+        "score": "9.0",
+        "iconType": 1,
+        "type": 5,
+        "content": "9.0"
+      }, {
         "type": 1,
-        "content": "讨论8"
+        "content": "讨论4"
       }],
-      "contentList": ["讨论8"]
+      "contentList": ["9.0", "讨论4"]
     },
     "frontLabelSummaryDTO": {
       "atmosphere": {
@@ -259,10 +436,10 @@
       "belowPrice": {},
       "belowTitle": {
         "item": [{
-          "sourceId": 613051279,
+          "sourceId": 611961565,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -272,14 +449,14 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }, {
-          "sourceId": 613051280,
+          "sourceId": 611961566,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -289,14 +466,14 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }, {
-          "sourceId": 613051281,
+          "sourceId": 611961567,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -306,14 +483,14 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }, {
-          "sourceId": 613051282,
+          "sourceId": 611961568,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -323,14 +500,14 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }, {
-          "sourceId": 613051283,
+          "sourceId": 611961569,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -340,14 +517,14 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }, {
-          "sourceId": 613051284,
+          "sourceId": 611961570,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -357,14 +534,14 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }, {
-          "sourceId": 613051285,
+          "sourceId": 611961571,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -374,14 +551,14 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }, {
-          "sourceId": 613051286,
+          "sourceId": 611961572,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -391,14 +568,14 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }, {
-          "sourceId": 613051287,
+          "sourceId": 611961573,
           "labelRoute": {
             "routeTypeStyle": "ARROW_STYLE",
-            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1012178&spuId=3087591&sourceName=productDetail",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
             "routeType": "landing_page"
           },
           "customType": 1,
@@ -408,7 +585,109 @@
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
-            "text": "Court Vision 1",
+            "text": "Pegasus Trail 4",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961574,
+          "labelRoute": {
+            "routeTypeStyle": "ARROW_STYLE",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
+            "routeType": "landing_page"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_PAGE_LANDING_SERIES",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "text": "Pegasus Trail 4",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961575,
+          "labelRoute": {
+            "routeTypeStyle": "ARROW_STYLE",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
+            "routeType": "landing_page"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_PAGE_LANDING_SERIES",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "text": "Pegasus Trail 4",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961576,
+          "labelRoute": {
+            "routeTypeStyle": "ARROW_STYLE",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
+            "routeType": "landing_page"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_PAGE_LANDING_SERIES",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "text": "Pegasus Trail 4",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961577,
+          "labelRoute": {
+            "routeTypeStyle": "ARROW_STYLE",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
+            "routeType": "landing_page"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_PAGE_LANDING_SERIES",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "text": "Pegasus Trail 4",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961578,
+          "labelRoute": {
+            "routeTypeStyle": "ARROW_STYLE",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
+            "routeType": "landing_page"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_PAGE_LANDING_SERIES",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "text": "Pegasus Trail 4",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 617773062,
+          "labelRoute": {
+            "routeTypeStyle": "ARROW_STYLE",
+            "routeUrl": "https://m.poizon.com/router/product/series/detail?brandId=144&seriesId=1011115&spuId=2905539&sourceName=productDetail",
+            "routeType": "landing_page"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_PAGE_LANDING_SERIES",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "text": "Pegasus Trail 4",
             "showNameType": "TEXT"
           }
         }],
@@ -451,7 +730,7 @@
       },
       "afterPriceFirst": {
         "item": [{
-          "sourceId": 613051286,
+          "sourceId": 611961565,
           "labelRoute": {
             "routeTypeStyle": "EXCLAMATION_STYLE",
             "routeType": "bidding_float"
@@ -459,7 +738,7 @@
           "customType": 1,
           "labelId": 0,
           "sourceType": "SKU",
-          "labelType": "LABEL_DEWU_PRICE",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
           "labelRouteHided": false,
           "labelShowName": {
             "textFrontStyle": {},
@@ -469,7 +748,315 @@
               "iconWidth": 12,
               "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
             },
-            "text": "得物包邮价",
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961566,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961567,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961568,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961569,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961570,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961571,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961572,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961573,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961574,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961575,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961576,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961577,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 611961578,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
+            "showNameType": "TEXT"
+          }
+        }, {
+          "sourceId": 617773062,
+          "labelRoute": {
+            "routeTypeStyle": "EXCLAMATION_STYLE",
+            "routeType": "bidding_float"
+          },
+          "customType": 1,
+          "labelId": 0,
+          "sourceType": "SKU",
+          "labelType": "LABEL_DEWU_INCLUDE_TAX_PRICE",
+          "labelRouteHided": false,
+          "labelShowName": {
+            "textFrontStyle": {},
+            "textOptionStyle": {
+              "iconHeight": 12,
+              "textColorStyle": "#AAAABB",
+              "iconWidth": 12,
+              "iconUrl": "https://cdn.poizon.com/node-common/4d3db497-a7f9-2174-7a39-c59bda9b6431-36-36.png"
+            },
+            "text": "得物包邮含税价",
             "showNameType": "TEXT"
           }
         }],
@@ -514,86 +1101,111 @@
       "imageLayoutType": 0,
       "spuImage": {
         "arSkuIdRelation": [{
-          "propertyValueId": 178744646,
+          "propertyValueId": 167673576,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051279
+          "spuId": 2905539,
+          "skuId": 611961565
         }, {
-          "propertyValueId": 178744647,
+          "propertyValueId": 167673577,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051280
+          "spuId": 2905539,
+          "skuId": 611961566
         }, {
-          "propertyValueId": 178744648,
+          "propertyValueId": 167673578,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051281
+          "spuId": 2905539,
+          "skuId": 611961567
         }, {
-          "propertyValueId": 178744649,
+          "propertyValueId": 167673579,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051282
+          "spuId": 2905539,
+          "skuId": 611961568
         }, {
-          "propertyValueId": 178744650,
+          "propertyValueId": 167673580,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051283
+          "spuId": 2905539,
+          "skuId": 611961569
         }, {
-          "propertyValueId": 178744651,
+          "propertyValueId": 167673581,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051284
+          "spuId": 2905539,
+          "skuId": 611961570
         }, {
-          "propertyValueId": 178744652,
+          "propertyValueId": 167673582,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051285
+          "spuId": 2905539,
+          "skuId": 611961571
         }, {
-          "propertyValueId": 178744653,
+          "propertyValueId": 167673583,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051286
+          "spuId": 2905539,
+          "skuId": 611961572
         }, {
-          "propertyValueId": 178744654,
+          "propertyValueId": 167673584,
           "supportFlag": false,
-          "spuId": 3087591,
-          "skuId": 613051287
+          "spuId": 2905539,
+          "skuId": 611961573
+        }, {
+          "propertyValueId": 167673585,
+          "supportFlag": false,
+          "spuId": 2905539,
+          "skuId": 611961574
+        }, {
+          "propertyValueId": 167673586,
+          "supportFlag": false,
+          "spuId": 2905539,
+          "skuId": 611961575
+        }, {
+          "propertyValueId": 167673587,
+          "supportFlag": false,
+          "spuId": 2905539,
+          "skuId": 611961576
+        }, {
+          "propertyValueId": 167673588,
+          "supportFlag": false,
+          "spuId": 2905539,
+          "skuId": 611961577
+        }, {
+          "propertyValueId": 167673589,
+          "supportFlag": false,
+          "spuId": 2905539,
+          "skuId": 611961578
+        }, {
+          "propertyValueId": 218871654,
+          "supportFlag": false,
+          "spuId": 2905539,
+          "skuId": 617773062
         }],
         "images": [{
           "propertyValueId": 0,
-          "url": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
-          "desc": "",
-          "imgType": 0
+          "url": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
+          "imgType": 0,
+          "desc": ""
         }, {
           "propertyValueId": 0,
-          "url": "https://cdn.poizon.com/pro-img/origin-img/20220724/94af5ab0bf864a7a9eb42fcdb2f747a6.jpg",
-          "desc": "",
-          "imgType": 0
+          "url": "https://cdn.poizon.com/pro-img/origin-img/20220609/6edc9500dbeb429d9716e492dbcbb484.jpg",
+          "imgType": 0,
+          "desc": ""
         }, {
           "propertyValueId": 0,
-          "url": "https://cdn.poizon.com/pro-img/origin-img/20220724/0cf341851fa8483e8d66cd7217adb3dd.jpg",
-          "desc": "",
-          "imgType": 0
+          "url": "https://cdn.poizon.com/pro-img/origin-img/20220609/0d57ef1636664c11bcf492866133c1f5.jpg",
+          "imgType": 0,
+          "desc": ""
         }, {
           "propertyValueId": 0,
-          "url": "https://cdn.poizon.com/pro-img/origin-img/20220724/8d933e8cdbe540d696e5fe60b86379b1.jpg",
-          "desc": "",
-          "imgType": 0
+          "url": "https://cdn.poizon.com/pro-img/origin-img/20220609/4df25a6dfc1f48be9eca992c3d3d8609.jpg",
+          "imgType": 0,
+          "desc": ""
         }, {
           "propertyValueId": 0,
-          "url": "https://cdn.poizon.com/pro-img/origin-img/20220724/207b06c5af5e4767aa122ce680f2e5c4.jpg",
-          "desc": "",
-          "imgType": 0
+          "url": "https://cdn.poizon.com/pro-img/origin-img/20220609/b9c18f491bb84371bda48c99157b3fc8.jpg",
+          "imgType": 0,
+          "desc": ""
         }, {
           "propertyValueId": 0,
-          "url": "https://cdn.poizon.com/pro-img/origin-img/20220724/916d693437364e7e8bc4ceea699a9867.jpg",
-          "desc": "",
-          "imgType": 0
-        }, {
-          "propertyValueId": 0,
-          "url": "https://cdn.poizon.com/pro-img/origin-img/20220829/92786d07b5a648cbb7f917ed0cb15ad8.png",
-          "desc": "",
-          "imgType": 0
+          "url": "https://cdn.poizon.com/pro-img/origin-img/20220609/cbe21f2c545c42dda2d202a16980fa41.jpg",
+          "imgType": 0,
+          "desc": ""
         }],
         "moreMaterialFlag": 0,
         "supportColorBlock": 0,
@@ -605,25 +1217,9 @@
     "imageAndTextMap": {
       "spuShowSpread": [{
         "images": [{
-          "url": "https://cdn.poizon.com/trade/gondor/10234663/20231213-3448ea09ca8a20dc-w1125h423.jpg",
-          "width": 1125,
-          "height": 423
-        }, {
-          "url": "https://cdn.poizon.com/trade/gondor/10234663/20231213-144db820390f1832-w1125h483.jpg",
-          "width": 1125,
-          "height": 483
-        }, {
-          "url": "https://cdn.poizon.com/trade/gondor/10234663/20231213-d3f0eb53f48c306c-w1125h906.jpg",
-          "width": 1125,
-          "height": 906
-        }, {
-          "url": "https://cdn.poizon.com/node-common/MjAyMjA3MjItMTUyOTQwMTY1ODY1NTIzMTcxOA==.png",
-          "width": 1125,
-          "height": 882
-        }, {
-          "url": "https://cdn.poizon.com/node-common/JUU1JUIxJTk1JUU3JUE0JUJBJUU2JUE4JUExJTIwJUU1JUFFJTlBJUU1JTg4JUI2MTY1ODY1NTIyNzM1Mw==.jpg",
+          "url": "https://cdn.poizon.com/node-common/JUU5JTlFJThCJUU1JUFEJTkwJUU1JUIxJTk1JUU3JUE0JUJBJUU2JUE4JUExJUU2JTlEJUJGJUVGJUJDJTg4JUU2JTg4JTkwJUU0JUJBJUJBJUVGJUJDJTg5MTY1NDc2MzEyNTExOA==.jpg",
           "width": 790,
-          "height": 2371
+          "height": 2278
         }],
         "imageGap": true,
         "type": "image",
@@ -633,108 +1229,122 @@
       "spuIntroductionSpread": [{
         "images": [{
           "width": 0,
-          "text": "该定制版球鞋选用原鞋款为Nike Court Vision 白色，原货号为：CD5463-100（辅助货号为DH2987-100。原鞋款式随机。）此款鞋的设计灵感源于动感二次元系列。在白色原鞋上手绘夏日运动橙的二次元描边及填充，在两侧外勾处做黑色填充，再绘出动感的小线条环绕鞋身，使整双鞋更有青春活力感。附赠鞋带。",
+          "text": "跑步是您的日常仪式，在您寻找新的冒险和目标时，带您从一条路走到另一条路。让 Nike React Pegasus Trail 4 以其支撑性和弹性感带您来回走动。脚下牵引力使您能够越过崎岖的地形，同时仍然为道路提供平稳的行驶。中足支撑由鞋带控制，让您找到合适的合脚感和感觉。您信赖的带翅膀的主力马已准备好进行越野之旅。",
           "height": 0
         }],
         "imageGap": true,
         "type": "text",
         "contentType": "INTRODUCTION",
         "contentName": "商品介绍"
-      }],
-      "attention": [{
-        "images": [{
-          "width": 0,
-          "text": "因定制球鞋系手工打造，涵涉但不限于：手绘喷绘、浸染、转印、改装、特殊钻孔、滴胶等工艺，因工艺及定制原材料差异性而引发的个别商品质量问题，支持买家退货（无穿戴、洗涤及使用过的痕迹，原包装/鞋盒无破损、折痕，防伪扣不拆除或损坏，赠品及配件齐全），询客服第一时间受理。",
-          "height": 0
-        }],
-        "imageGap": true,
-        "type": "text",
-        "contentType": "NOTICE",
-        "contentName": "注意须知"
       }]
     },
     "favoriteData": {
       "hasFavorite": false,
       "favoriteList": [{
         "isAdded": 0,
-        "skuId": 613051279
+        "skuId": 611961565
       }, {
         "isAdded": 0,
-        "skuId": 613051280
+        "skuId": 611961566
       }, {
         "isAdded": 0,
-        "skuId": 613051281
+        "skuId": 611961567
       }, {
         "isAdded": 0,
-        "skuId": 613051282
+        "skuId": 611961568
       }, {
         "isAdded": 0,
-        "skuId": 613051283
+        "skuId": 611961569
       }, {
         "isAdded": 0,
-        "skuId": 613051284
+        "skuId": 611961570
       }, {
         "isAdded": 0,
-        "skuId": 613051285
+        "skuId": 611961571
       }, {
         "isAdded": 0,
-        "skuId": 613051286
+        "skuId": 611961572
       }, {
         "isAdded": 0,
-        "skuId": 613051287
+        "skuId": 611961573
+      }, {
+        "isAdded": 0,
+        "skuId": 611961574
+      }, {
+        "isAdded": 0,
+        "skuId": 611961575
+      }, {
+        "isAdded": 0,
+        "skuId": 611961576
+      }, {
+        "isAdded": 0,
+        "skuId": 611961577
+      }, {
+        "isAdded": 0,
+        "skuId": 611961578
+      }, {
+        "isAdded": 0,
+        "skuId": 617773062
       }],
       "hasMyOwn": false,
       "myOwnCount": {
-        "count": 183,
-        "content": "183",
-        "tinyContent": "183"
+        "count": 177,
+        "content": "177",
+        "tinyContent": "177"
       },
       "favoriteCount": {
-        "count": 4836,
-        "content": "4000+人想要",
-        "tinyContent": "4k"
+        "count": 2272,
+        "content": "2000+人想要",
+        "tinyContent": "2k"
       }
     },
+    "extraToolModels": [{
+      "productAdditionTabInfo": {
+        "additionType": 99,
+        "previewType": 0
+      },
+      "iconUrl": "https://cdn.poizon.com/node-common/f53adde7-d85e-635c-45b2-43c1248bc3c4-54-54.png",
+      "text": "刻字",
+      "type": 4
+    }],
     "toast": "",
     "soldNumDTO": {
-      "soldNumText": "67人付款"
+      "soldNumText": "176人付款"
     },
     "detail": {
-      "structureTitle": "【定制球鞋】 Nike Court Vision 1 空军一号 橙色动感二次元 漫画风 街头嘻哈 手绘喷绘 情侣款 低帮 板鞋 男款 黑橙白",
+      "structureTitle": "Nike Pegasus Trail 4 运动 低帮 跑步鞋 男款 黑色",
       "fitId": 2,
       "bizType": 0,
       "defaultSkuId": 0,
-      "title": "【定制球鞋】 Nike Court Vision 1 空军一号 橙色动感二次元 漫画风 街头嘻哈 手绘喷绘 情侣款 低帮 板鞋 男款 黑橙白",
-      "categoryName": "板鞋",
+      "title": "Nike Pegasus Trail 4 运动 低帮 跑步鞋 男款 黑色",
+      "categoryName": "跑步鞋",
       "subTitle": "",
-      "articleNumber": "CD5463-100(TeamY-男款动感二次元黑橙白)",
+      "articleNumber": "DJ6158-001",
       "level1CategoryId": 29,
-      "otherNumbers": "DH2987-100",
       "levelPvSize": 1,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
-      "isShow": 1,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "goodsType": 0,
-      "articleNumbers": ["DH2987-100"],
-      "originalTitle": "【定制球鞋】Nike Court Vision 空军一号 橙色动感二次元 漫画风 街头嘻哈 手绘喷绘 情侣款 低帮 休闲板鞋 男款 黑橙白",
+      "isShow": 1,
+      "originalTitle": "Nike React Pegasus Trail 4 防滑透气 低帮运动跑步鞋 黑色",
       "brandId": 144,
-      "spuId": 3087591,
-      "soldCountText": "67人付款",
-      "level2CategoryId": 35,
-      "sellDate": "2022.07.24",
+      "sellDate": "2022夏季",
+      "spuId": 2905539,
+      "soldCountText": "176人付款",
+      "level2CategoryId": 30,
       "sourceName": "default",
       "isSelf": 0,
-      "categoryId": 38,
-      "authPrice": 1299,
+      "categoryId": 33,
+      "authPrice": 899,
       "status": 1,
-      "desc": "定制内容由商家提供，非品牌官方定制"
+      "desc": ""
     },
     "mainConfigInfo": {
       "specialLogicTypeMap": {},
       "hasArMakeup": false,
-      "serverTime": 1711382070318,
+      "serverTime": 1711388829266,
       "floatLayerGood": false,
-      "newUserFlag": false,
       "hasSizeTable": false,
+      "newUserFlag": false,
       "useLevelImageUrl": true,
       "spuHasBids": false,
       "multipleSpuShow": false,
@@ -760,98 +1370,158 @@
       }],
       "ruleId": "",
       "subDetailType": 0,
+      "jumpUrl": "https://fast.dewu.com/nezha-plus/detail/613b154ab0f0b0628af40902?navControl=1&toolbarControl=1&nezhaChannel=prd_qa",
       "categoryId": -1,
-      "level1CategoryId": 29,
-      "jumpUrl": "https://fast.dewu.com/nezha-plus/detail/613b154ab0f0b0628af40902?navControl=1&toolbarControl=1&nezhaChannel=prd_qa"
+      "level1CategoryId": 29
     },
     "skus": [{
-      "spuId": 3087591,
-      "skuId": 613051279,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961565,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744646
+        "propertyValueId": 167673576
       }],
       "status": 1
     }, {
-      "spuId": 3087591,
-      "skuId": 613051280,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961566,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744647
+        "propertyValueId": 167673577
       }],
       "status": 1
     }, {
-      "spuId": 3087591,
-      "skuId": 613051281,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961567,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744648
+        "propertyValueId": 167673578
       }],
       "status": 1
     }, {
-      "spuId": 3087591,
-      "skuId": 613051282,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961568,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744649
+        "propertyValueId": 167673579
       }],
       "status": 1
     }, {
-      "spuId": 3087591,
-      "skuId": 613051283,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961569,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744650
+        "propertyValueId": 167673580
       }],
       "status": 1
     }, {
-      "spuId": 3087591,
-      "skuId": 613051284,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961570,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744651
+        "propertyValueId": 167673581
       }],
       "status": 1
     }, {
-      "spuId": 3087591,
-      "skuId": 613051285,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961571,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744652
+        "propertyValueId": 167673582
       }],
       "status": 1
     }, {
-      "spuId": 3087591,
-      "skuId": 613051286,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961572,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744653
+        "propertyValueId": 167673583
       }],
       "status": 1
     }, {
-      "spuId": 3087591,
-      "skuId": 613051287,
-      "authPrice": 129900,
-      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg",
+      "spuId": 2905539,
+      "skuId": 611961573,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
       "properties": [{
         "level": 1,
-        "propertyValueId": 178744654
+        "propertyValueId": 167673584
+      }],
+      "status": 1
+    }, {
+      "spuId": 2905539,
+      "skuId": 611961574,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
+      "properties": [{
+        "level": 1,
+        "propertyValueId": 167673585
+      }],
+      "status": 1
+    }, {
+      "spuId": 2905539,
+      "skuId": 611961575,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
+      "properties": [{
+        "level": 1,
+        "propertyValueId": 167673586
+      }],
+      "status": 1
+    }, {
+      "spuId": 2905539,
+      "skuId": 611961576,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
+      "properties": [{
+        "level": 1,
+        "propertyValueId": 167673587
+      }],
+      "status": 1
+    }, {
+      "spuId": 2905539,
+      "skuId": 611961577,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
+      "properties": [{
+        "level": 1,
+        "propertyValueId": 167673588
+      }],
+      "status": 1
+    }, {
+      "spuId": 2905539,
+      "skuId": 611961578,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
+      "properties": [{
+        "level": 1,
+        "propertyValueId": 167673589
+      }],
+      "status": 1
+    }, {
+      "spuId": 2905539,
+      "skuId": 617773062,
+      "authPrice": 89900,
+      "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg",
+      "properties": [{
+        "level": 1,
+        "propertyValueId": 218871654
       }],
       "status": 1
     }],
@@ -1042,12 +1712,6 @@
         "key": "appraiseFeed"
       }],
       "key": "FEED2"
-    }, {
-      "value": [{
-        "title": "为你推荐",
-        "key": "recommend"
-      }],
-      "key": "FEED1"
     }],
     "newService": {
       "list": [{
@@ -1055,9 +1719,17 @@
         "title": "正品保障险",
         "type": 2
       }, {
+        "checkTarget": "NO_REASON",
+        "title": "7天无理由退货(部分不支持)",
+        "type": 2
+      }, {
         "checkTarget": "INSURED_7DAYS",
         "title": "买贵补偿",
         "type": 4
+      }, {
+        "checkTarget": "INSURANCE_CHANGE_TYPE",
+        "title": "退换货减免运费",
+        "type": 2
       }, {
         "checkTarget": "PIECE_CHECK",
         "title": "逐件查验",
@@ -1067,7 +1739,7 @@
         "title": "防伪包装",
         "type": 2
       }],
-      "serviceTotalText": "4项服务",
+      "serviceTotalText": "6项服务",
       "arrowStyle": 1,
       "iconUrl": "https://cdn.poizon.com/node-common/b4712aeb-229c-f910-d5de-61755ccd4ab5-54-54.png"
     },
@@ -1083,147 +1755,229 @@
       "list": [{
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744646,
+        "propertyValueId": 167673576,
+        "salePropertiesType": "size",
+        "sort": 0,
+        "fontProperty": false,
+        "showValue": 1,
+        "name": "尺码",
+        "propertyId": 3424,
+        "value": "38.5",
+        "salePvStatus": 1,
+        "definitionId": 6
+      }, {
+        "customValue": "",
+        "level": 1,
+        "propertyValueId": 167673577,
+        "salePropertiesType": "size",
+        "sort": 1,
+        "fontProperty": false,
+        "showValue": 1,
+        "name": "尺码",
+        "propertyId": 3424,
+        "value": "39",
+        "salePvStatus": 1,
+        "definitionId": 6
+      }, {
+        "customValue": "",
+        "level": 1,
+        "propertyValueId": 167673578,
+        "salePropertiesType": "size",
+        "sort": 2,
+        "fontProperty": false,
+        "showValue": 1,
+        "name": "尺码",
+        "propertyId": 3424,
+        "value": "40",
+        "salePvStatus": 1,
+        "definitionId": 6
+      }, {
+        "customValue": "",
+        "level": 1,
+        "propertyValueId": 167673579,
+        "salePropertiesType": "size",
+        "sort": 3,
+        "fontProperty": false,
+        "showValue": 1,
+        "name": "尺码",
+        "propertyId": 3424,
+        "value": "40.5",
+        "salePvStatus": 1,
+        "definitionId": 6
+      }, {
+        "customValue": "",
+        "level": 1,
+        "propertyValueId": 167673580,
         "salePropertiesType": "size",
         "sort": 4,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "40",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "41",
+        "salePvStatus": 1,
+        "definitionId": 6
       }, {
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744647,
+        "propertyValueId": 167673581,
         "salePropertiesType": "size",
         "sort": 5,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "40.5",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "42",
+        "salePvStatus": 1,
+        "definitionId": 6
       }, {
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744648,
+        "propertyValueId": 167673582,
         "salePropertiesType": "size",
         "sort": 6,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "41",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "42.5",
+        "salePvStatus": 1,
+        "definitionId": 6
       }, {
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744649,
+        "propertyValueId": 167673583,
         "salePropertiesType": "size",
         "sort": 7,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "42",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "43",
+        "salePvStatus": 1,
+        "definitionId": 6
       }, {
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744650,
+        "propertyValueId": 167673584,
         "salePropertiesType": "size",
         "sort": 8,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "42.5",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "44",
+        "salePvStatus": 1,
+        "definitionId": 6
       }, {
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744651,
+        "propertyValueId": 167673585,
         "salePropertiesType": "size",
         "sort": 9,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "43",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "44.5",
+        "salePvStatus": 1,
+        "definitionId": 6
       }, {
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744652,
+        "propertyValueId": 167673586,
         "salePropertiesType": "size",
         "sort": 10,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "44",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "45",
+        "salePvStatus": 1,
+        "definitionId": 6
       }, {
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744653,
+        "propertyValueId": 218871654,
         "salePropertiesType": "size",
         "sort": 11,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "44.5",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "45.5",
+        "salePvStatus": 1,
+        "definitionId": 6
       }, {
         "customValue": "",
         "level": 1,
-        "propertyValueId": 178744654,
+        "propertyValueId": 167673587,
         "salePropertiesType": "size",
         "sort": 12,
         "fontProperty": false,
         "showValue": 1,
         "name": "尺码",
-        "propertyId": 4665,
-        "value": "45",
-        "definitionId": 6,
-        "salePvStatus": 1
+        "propertyId": 3424,
+        "value": "46",
+        "salePvStatus": 1,
+        "definitionId": 6
+      }, {
+        "customValue": "",
+        "level": 1,
+        "propertyValueId": 167673588,
+        "salePropertiesType": "size",
+        "sort": 14,
+        "fontProperty": false,
+        "showValue": 1,
+        "name": "尺码",
+        "propertyId": 3424,
+        "value": "47.5",
+        "salePvStatus": 1,
+        "definitionId": 6
+      }, {
+        "customValue": "",
+        "level": 1,
+        "propertyValueId": 167673589,
+        "salePropertiesType": "size",
+        "sort": 16,
+        "fontProperty": false,
+        "showValue": 1,
+        "name": "尺码",
+        "propertyId": 3424,
+        "value": "48.5",
+        "salePvStatus": 1,
+        "definitionId": 6
       }]
     },
     "spu3d360List": {
       "list": [{
         "showType": 0,
-        "spuId": 3087591,
-        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220724/eb29ccf363af4078b0facd4eedff81ee.jpg"
+        "spuId": 2905539,
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220609/8a9be58f0839482699144224bff64cb4.jpg"
       }, {
         "showType": 0,
-        "spuId": 3659921,
-        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20221111/33309d4711f1474c8fa1066fc0a13ca8.jpg"
+        "spuId": 3377586,
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220914/d289e7bbd6df4c7faa39a3ab5a0f154f.jpg"
       }, {
         "showType": 0,
-        "spuId": 3637326,
-        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20221107/c4d4f166850e467aa45d11b959f260a9.jpg"
+        "spuId": 3006122,
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220704/88ba481c9d4c48c18c87b3d18fac83d5.jpg"
       }, {
         "showType": 0,
-        "spuId": 3664569,
-        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20221112/89b5f2f7719b4c5588bffb9f80b21ed3.jpg"
+        "spuId": 2959219,
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220622/83e574dd9309486495321b822d950150.jpg"
+      }, {
+        "showType": 0,
+        "spuId": 2829189,
+        "logoUrl": "https://cdn.poizon.com/pro-img/origin-img/20220806/bf59bfda0076454bb25a978129130afa.jpg"
       }]
     },
     "brandRootInfo": {
       "brandItemShowSize": 1,
       "brandItemList": [{
         "coverUrl": "https://cdn.poizon.com/node-common/JUU1JTkzJTgxJUU3JTg5JThDJUU0JUI4JUJCJUU5JUExJUI1JUU5JUE2JTk2JUU1JTlCJUJFMDYwMTE2ODU1OTE0ODY2MTk=.jpg",
-        "brandName": "Nike",
         "brandType": 0,
+        "brandName": "Nike",
         "brandId": 144,
         "brandTextList": [{
           "showText": "17万+款好物",
@@ -1244,7 +1998,7 @@
       "multiRelationText": ""
     },
     "virtualImageAndTextModel": {
-      "collapseType": 0,
+      "collapseType": 2,
       "models": ["historyJson", "spuDetailSpread", "spuWearSpread", "spuShowSpread", "spuInfoSpread", "physicalContrastImageTextSpread", "materialDescriptionSpread", "afterSalesServiceSpread", "maintenanceInstructionsSpread", "spuIntroductionSpread", "brandStorySpread"],
       "multiModels": [{
         "relateFiled": "historyJson",
@@ -1297,7 +2051,7 @@
         "title": "常见问题",
         "key": "commonQuestionRes"
       }],
-      "collapse": "0"
+      "collapse": "1.0"
     },
     "biddingFactor": {
       "catFactor": "catAll",
@@ -1308,94 +2062,115 @@
     "basicParam": {
       "windowsListV2": [{
         "paramModelList": [{
-          "propertyValueId": 178744641,
+          "propertyValueId": 167673566,
+          "valueType": 0,
+          "value": "橡胶底",
+          "key": "鞋底材料",
+          "definitionId": 436
+        }, {
+          "propertyValueId": 167673575,
           "valueType": 0,
           "value": "春,夏,秋,冬",
           "key": "适用季节",
           "definitionId": 1451
         }, {
-          "propertyValueId": 178744644,
+          "propertyValueId": 167673567,
           "valueType": 0,
-          "value": "白色,橙色",
-          "key": "辅色",
-          "definitionId": 2644
-        }, {
-          "propertyValueId": 178744639,
-          "valueType": 0,
-          "value": "橡胶底",
-          "key": "鞋底材料",
-          "definitionId": 436
+          "value": "织物",
+          "key": "鞋面材质",
+          "definitionId": 439
         }],
         "type": 1,
         "paramGroupName": "重点参数"
       }, {
+        "paramGroupId": 167,
+        "paramModelList": [{
+          "propertyValueId": 316273172,
+          "valueType": 0,
+          "value": "单只42码275g（相当于一盒牛奶）",
+          "key": "鞋身重量",
+          "definitionId": 4068
+        }, {
+          "propertyValueId": 314354084,
+          "valueType": 0,
+          "value": "进阶跑",
+          "key": "跑鞋等级",
+          "definitionId": 4071
+        }],
+        "type": 2,
+        "paramGroupName": "跑鞋特性"
+      }, {
+        "paramModelList": [{
+          "keyScene": 6,
+          "options": [{
+            "sourceType": 28,
+            "seriesName": "Pegasus Trail 4",
+            "anchorName": "React",
+            "selected": false,
+            "seriesId": 1011115
+          }],
+          "value": "全掌 React",
+          "key": "中底"
+        }],
+        "type": 2,
+        "paramGroupName": "系列科技"
+      }, {
         "paramGroupId": 0,
         "paramModelList": [{
-          "propertyValueId": 178744636,
+          "propertyValueId": 167673572,
           "valueType": 0,
-          "value": "低帮",
-          "key": "鞋帮高度",
-          "definitionId": 435
-        }, {
-          "propertyValueId": 178744637,
-          "valueType": 0,
-          "value": "防滑,轻便",
+          "value": "减震,防滑,耐磨,透气",
           "key": "功能性",
           "definitionId": 169
         }, {
-          "propertyValueId": 178744635,
+          "propertyValueId": 167673570,
           "valueType": 0,
           "value": "系带",
           "key": "闭合方式",
           "definitionId": 427
         }, {
-          "propertyValueId": 178744643,
+          "propertyValueId": 167673571,
           "valueType": 0,
-          "value": "黑色",
-          "key": "主色",
-          "definitionId": 2643
+          "value": "低帮",
+          "key": "鞋帮高度",
+          "definitionId": 435
         }, {
-          "propertyValueId": 178744633,
+          "propertyValueId": 167673568,
           "valueType": 0,
           "value": "圆头",
           "key": "鞋头款式",
           "definitionId": 434
         }, {
-          "propertyValueId": 178744634,
+          "propertyValueId": 219752698,
+          "valueType": 0,
+          "value": "黑色",
+          "key": "主色",
+          "definitionId": 2643
+        }, {
+          "propertyValueId": 167673569,
           "valueType": 0,
           "value": "平跟",
           "key": "鞋跟类型",
           "definitionId": 437
         }, {
-          "propertyValueId": 178744638,
+          "propertyValueId": 167673573,
           "valueType": 0,
           "value": "运动",
           "key": "风格",
           "definitionId": 446
         }, {
           "valueType": 0,
-          "value": "CD5463-100(TeamY-男款动感二次元黑橙白)",
+          "value": "DJ6158-001",
           "key": "主货号",
           "definitionId": -1
         }, {
           "valueType": 0,
-          "value": "DH2987-100",
-          "key": "辅助货号",
-          "definitionId": -2
-        }, {
-          "valueType": 0,
-          "value": "¥1299",
+          "value": "¥899",
           "key": "发售价格",
           "definitionId": -3
         }, {
-          "propertyValueId": 178744640,
           "valueType": 0,
-          "value": "附赠鞋带",
-          "key": "包装清单",
-          "definitionId": 1450
-        }, {
-          "valueType": 0,
-          "value": "2022.07.24",
+          "value": "2022夏季",
           "key": "发售日期",
           "definitionId": -4
         }],
@@ -1406,108 +2181,105 @@
       "supportAnchorFlag": false,
       "windowTitle": "商品参数",
       "pkModelInfo": {
-        "pkIcon4": "https://cdn.poizon.com/node-common/edcfc738-9b7a-21fa-dd20-af54f3404d53-45-30.png",
         "pkFlag": true,
-        "redirectUrl": "https://m.poizon.com/router/product/ParameterComparePage?spuId=3087591&categoryId=38",
+        "pkIcon4": "https://cdn.poizon.com/node-common/edcfc738-9b7a-21fa-dd20-af54f3404d53-45-30.png",
+        "redirectUrl": "https://m.poizon.com/router/product/ParameterComparePage?spuId=2905539&categoryId=33",
         "pkIcon3": "https://cdn.poizon.com/node-common/a0fdb2f3-40d6-3bcb-74a1-4f06ab2927aa-144-152.png",
         "pkIcon2": "https://cdn.poizon.com/node-common/23c7f771-98f1-c34c-5a6f-d88dad51715b-123-36.png",
         "pkIcon1": "https://cdn.poizon.com/node-common/c45bdedd-8544-2095-a9f6-8949a23055b1-60-69.png"
       },
       "basicList": [{
-        "propertyValueId": 178744641,
-        "valueType": 0,
-        "value": "春,夏,秋,冬",
-        "key": "适用季节"
-      }, {
-        "propertyValueId": 178744644,
-        "valueType": 0,
-        "value": "白色,橙色",
-        "key": "辅色"
-      }, {
-        "propertyValueId": 178744639,
+        "propertyValueId": 167673566,
         "valueType": 0,
         "value": "橡胶底",
         "key": "鞋底材料"
       }, {
-        "propertyValueId": 178744636,
+        "propertyValueId": 167673575,
         "valueType": 0,
-        "value": "低帮",
-        "key": "鞋帮高度"
+        "value": "春,夏,秋,冬",
+        "key": "适用季节"
       }, {
-        "propertyValueId": 178744637,
+        "propertyValueId": 167673567,
         "valueType": 0,
-        "value": "防滑,轻便",
+        "value": "织物",
+        "key": "鞋面材质"
+      }, {
+        "propertyValueId": 316273172,
+        "valueType": 0,
+        "value": "单只42码275g（相当于一盒牛奶）",
+        "key": "鞋身重量"
+      }, {
+        "propertyValueId": 314354084,
+        "valueType": 0,
+        "value": "进阶跑",
+        "key": "跑鞋等级"
+      }, {
+        "keyScene": 6,
+        "valueType": 0,
+        "value": "全掌 React",
+        "key": "中底"
+      }, {
+        "propertyValueId": 167673572,
+        "valueType": 0,
+        "value": "减震,防滑,耐磨,透气",
         "key": "功能性"
       }, {
-        "propertyValueId": 178744635,
+        "propertyValueId": 167673570,
         "valueType": 0,
         "value": "系带",
         "key": "闭合方式"
       }, {
-        "propertyValueId": 178744643,
+        "propertyValueId": 167673571,
         "valueType": 0,
-        "value": "黑色",
-        "key": "主色"
-      }, {
-        "propertyValueId": 178744633,
-        "valueType": 0,
-        "value": "圆头",
-        "key": "鞋头款式"
-      }, {
-        "propertyValueId": 178744634,
-        "valueType": 0,
-        "value": "平跟",
-        "key": "鞋跟类型"
+        "value": "低帮",
+        "key": "鞋帮高度"
       }],
       "iconUrl": "https://cdn.poizon.com/node-common/75f69aa5-d544-4d01-30af-46d9b9892657-54-54.png"
     },
     "brandingModel": {
       "newBrand": {
-        "brandingText": "得物鉴别协助执法部门“打假”",
+        "brandingText": "《解放日报》头版报道得物鉴别",
         "dewuLogoUrl": "https://h5static.dewucdn.com/node-common/d95c31f0-8137-0d45-c332-65c35d88b0d6-66-66.png",
-        "jumpUrl": "https://cdn-fast.dewu.com/nezha-plus/detail/649b9c0836071e00c8e16f30/tabId=keyxy3opm1j&subPageId=64ca0e8041ebe5c66c766eb6?isAllowVideoAutoPlay=1&nezhaChannel=prd_tongyong&title=%E5%BE%97%E7%89%A9%E9%89%B4%E5%88%AB%E5%8D%8F%E5%8A%A9%E6%89%A7%E6%B3%95%E9%83%A8%E9%97%A8%E2%80%9C%E6%89%93%E5%81%87%E2%80%9D",
+        "jumpUrl": "https://cdn-fast.dewu.com/nezha-plus/detail/649b9c0836071e00c8e16f30/tabId=keyd41c9a9u&subPageId=64fabcc3ac568108dd2724dd?isAllowVideoAutoPlay=1&nezhaChannel=prd_tongyong&title=%E3%80%8A%E8%A7%A3%E6%94%BE%E6%97%A5%E6%8A%A5%E3%80%8B%E5%A4%B4%E7%89%88%E6%8A%A5%E9%81%93%E5%BE%97%E7%89%A9%E9%89%B4%E5%88%AB",
         "coverUrl": "https://cdn.poizon.com/node-common/2071f99c-8931-48b3-5609-eabcd1bb4fee-1065-126.png",
-        "brandingDesc": "得物鉴别协助执法部门“打假”",
+        "brandingDesc": "《解放日报》头版报道得物鉴别",
         "arrowStyle": 2,
         "width": 1065,
-        "id": 776,
+        "id": 732,
         "height": 126
       }
     },
     "paramMap": {
-      "lowestPriceSkuId": "613051286",
+      "lowestPriceSkuId": "611961566",
       "onlyOverseaBid": "false",
       "brandingIds": "373"
     },
     "sizeDto": {
-      "sizeInfoRecommendText": "查看尺码表",
+      "sizeInfoRecommendText": "已购用户反馈此款鞋偏小，建议购买偏大尺码",
       "foldShowRowNum": 2,
       "downFoldShowRowNum": 2,
       "sizeFlag": 3,
       "sizeInfo": {
         "sizeTemplate": {
-          "hitRowNum": 6,
+          "hitRowNum": 7,
           "hitColNum": 0,
-          "offsetCodeType": 0,
+          "offsetCodeType": 6,
           "hasSizeTable": true,
           "list": [{
             "sizeKey": "欧码EU",
-            "sizeValue": "37.5,38,38.5,39,40,40.5,41,42,42.5,43,44,44.5,45,45.5,46,47,47.5,48,48.5,49,49.5,50,50.5,51,51.5,52.5"
+            "sizeValue": "36.5,37.5,38,38.5,39,40,40.5,41,42,42.5,43,44,44.5,45,45.5,46,47,47.5,48,48.5,49,49.5,50,50.5,51,51.5"
+          }, {
+            "sizeKey": "FR法码",
+            "sizeValue": "/,/,/,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350"
           }, {
             "sizeKey": "US美码",
-            "sizeValue": "5,5.5,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,13.5,14,14.5,15,15.5,16,16.5,17,18"
+            "sizeValue": "/,5,/,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,13.5,14,14.5,15,15.5,16,16.5,17"
           }, {
             "sizeKey": "UK英码",
-            "sizeValue": "5,5,5.5,6,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,13.5,14,14.5,15,15.5,16,17"
-          }, {
-            "sizeKey": "JP日本码",
-            "sizeValue": "23.5,24,24,24.5,25,25.5,26,26.5,27,27.5,28,28.5,29,29.5,30,30.5,31,31.5,32,32.5,33,33.5,34,34.5,35,36"
-          }, {
-            "sizeKey": "KR韩国码",
-            "sizeValue": "235,240,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350,360"
+            "sizeValue": "3.5,4.5,/,5.5,6,6,6.5,7,7.5,8,8.5,9,9.5,10,10.5,11,11.5,12,12.5,13,13.5,14,14.5,15,15.5,16"
           }, {
             "sizeKey": "内长（MM）",
-            "sizeValue": "235,240,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350,360"
+            "sizeValue": "/,/,/,240,245,250,255,260,265,270,275,280,285,290,295,300,305,310,315,320,325,330,335,340,345,350"
           }],
           "title": "尺码对照表",
           "type": 1,
@@ -1547,125 +2319,127 @@
             "value": "260",
             "key": "footLength"
           }],
-          "userSizeSetDesc": "我的身型：鞋码40.5码，脚长260mm"
+          "userSizeSetDesc": "我的身型：鞋码40.5码，脚长260mm",
+          "recommendDesc": "已购用户反馈此款鞋偏小，建议购买偏大尺码"
         }
       },
-      "comparedRecommendRow": 6
+      "comparedRecommendRow": 7
     },
     "lastSoldListModel": {
       "showRecord": true,
-      "lastSoldCountText": "67",
+      "lastSoldCountText": "176",
       "jumpRecordFlag": false,
       "list": [{
-        "orderSubTypeName": "预售",
-        "price": 79900,
-        "formatTime": "2月10日",
-        "avatar": "https://qiniu.dewucdn.com/FopKJAJnH2BCZ5M2MId0OmBVkvdp",
-        "userName": "得*",
-        "propertiesValues": "44.5"
+        "orderSubTypeName": "日本直邮",
+        "price": 64260,
+        "formatTime": "31分钟前",
+        "avatar": "http://qiniu.dewucdn.com/icon_byte2771byte_56a5f612d0d87_w100h100.jpg",
+        "userName": "叫*",
+        "propertiesValues": "41"
       }, {
-        "orderSubTypeName": "预售",
-        "price": 92900,
-        "formatTime": "2023.6.29",
-        "avatar": "https://cdn.poizon.com/du_app/2021/image/1601557329_modelNOP-AN00model_byte156623byte_2dde05ee8d29df3a29543d9e44beb493_du_android_w1152_h1152.jpeg",
-        "userName": "大*",
-        "propertiesValues": "40"
+        "orderSubTypeName": "日本直邮",
+        "price": 64260,
+        "formatTime": "1小时前",
+        "avatar": "https://qiniu.dewucdn.com/equip1440055005",
+        "userName": "无*",
+        "propertiesValues": "42"
       }]
     },
     "qaModel": {
-      "questionButtonTitle": "去讨论",
       "canAsk": 1,
-      "total": 8,
-      "totalText": "商品讨论 (8)",
+      "questionButtonTitle": "去讨论",
+      "total": 4,
+      "totalText": "商品讨论 (4)",
       "questionLayerTitle": "商品讨论",
-      "answeredTotal": 2,
       "showType": 1,
+      "answeredTotal": 1,
       "noAnswerQuestionShowText": "点击回复参与讨论",
       "questionList": [{
-        "totalText": "1",
-        "userAvatar": "https://qiniu.dewucdn.com/FshWfBCVKCxQo8wKvgYQByUjpNmU",
+        "totalText": "2",
+        "userAvatar": "https://image-cdn.poizon.com/app/2022/other/1568843248_modelPBEM00model_byte123912byte_093c1c2cd057fef1d0aedcc8deef2f04_du_android_w1080_h1080.jpg",
         "canAnswer": 0,
-        "type": 1,
-        "content": "要买比平常的鞋码大一个码吗",
+        "type": 25,
+        "content": "防滑吗？",
         "hasFolded": false,
-        "readAnswerNumber": 0,
-        "answerNumber": 1,
-        "id": 5562568,
-        "aiAnswerNumber": 1,
+        "readAnswerNumber": 2,
+        "answerNumber": 2,
+        "id": 10162444,
+        "aiAnswerNumber": 2,
         "topType": 0,
         "qaAnswerList": [{
           "qualityLevelId": 2,
           "answerOaId": 0,
-          "userAvatar": "https://qiniu.dewucdn.com/FshWfBCVKCxQo8wKvgYQByUjpNmU",
+          "userAvatar": "https://qiniu.dewucdn.com/Fs804MkOcMxLzc0SNLcOXqviW7ii",
           "canAppend": 2,
           "usefulNumber": 0,
-          "content": "同码",
-          "qaQuestionId": 5562568,
-          "id": 25961045,
+          "content": "防滑",
+          "qaQuestionId": 10162444,
+          "id": 14691964,
           "showHighlight": 0,
           "topType": 0,
-          "userName": "龚宇国",
-          "userId": 1936462495,
-          "createTime": "2024-02-15",
+          "userName": "胡子拉碴红外线a89",
+          "userId": 1518729833,
+          "userBuyTime": "2023-08-04 21:12:51.000",
+          "createTime": "2023-08-20",
           "sourceType": 0,
           "anonymous": 0,
-          "spuId": 3087591,
-          "answerChannelType": 1
+          "spuId": 2905539,
+          "answerChannelType": 7
+        }, {
+          "qualityLevelId": 0,
+          "answerOaId": 0,
+          "userAvatar": "https://qiniu.dewucdn.com/Fs804MkOcMxLzc0SNLcOXqviW7ii",
+          "canAppend": 2,
+          "usefulNumber": 0,
+          "content": "不太防滑",
+          "qaQuestionId": 10162444,
+          "id": 14691948,
+          "showHighlight": 0,
+          "topType": 0,
+          "userName": "胡子拉碴红外线a89",
+          "userId": 1518729833,
+          "userBuyTime": "2023-08-04 21:12:51.000",
+          "createTime": "2023-08-20",
+          "sourceType": 0,
+          "anonymous": 0,
+          "spuId": 2905539,
+          "answerChannelType": 7
         }],
         "showStatus": 2,
-        "userName": "深沉黑天使gxy",
-        "userId": 1560290668,
+        "userName": "捣蛋刮刮乐nEQ",
+        "userId": 1568843248,
         "appendNumber": 0,
-        "totalReply": 1,
-        "createTime": "2022-10-07",
+        "totalReply": 2,
+        "createTime": "2023-08-13",
         "sourceType": 0,
         "anonymous": 0,
-        "spuId": 3087591,
         "reviewStatus": 1,
+        "spuId": 2905539,
         "aiTagId": 0,
         "noAnswerQuestionShowText": "点击回复参与讨论",
         "status": 4
       }, {
-        "totalText": "1",
-        "userAvatar": "https://community.dewu.com/ocean/eb77a9a5c55939fdfe285560a25fbef4.jpg",
-        "canAnswer": 0,
+        "totalText": "回复",
+        "userAvatar": "https://qiniu.dewucdn.com/28636297_model_WAS-AL00_model_byte258294byte_a617ff3e9a40bce0f8a74a252c45aae5_hupu_android_w0h0.png",
+        "canAnswer": 1,
         "type": 24,
-        "content": "鞋底符合人体力学，能缓解走路时脚的压力？",
+        "content": "有气垫吗",
         "hasFolded": false,
         "readAnswerNumber": 0,
-        "answerNumber": 1,
-        "id": 8230152,
-        "aiAnswerNumber": 1,
+        "answerNumber": 0,
+        "id": 4737410,
+        "aiAnswerNumber": 0,
         "topType": 0,
-        "qaAnswerList": [{
-          "qualityLevelId": 0,
-          "answerOaId": 10519857,
-          "userAvatar": "https://community.dewu.com/ocean/af3aa495655c4421ebbd8a3b7ec5e9fb.jpg",
-          "canAppend": 2,
-          "usefulNumber": 0,
-          "content": "可以的，走路非常舒服，很不错的",
-          "qaQuestionId": 8230152,
-          "id": 8977419,
-          "showHighlight": 0,
-          "topType": 0,
-          "userName": "beginson",
-          "userId": 1557079462,
-          "createTime": "2023-04-23",
-          "sourceType": 1,
-          "anonymous": 1,
-          "spuId": 3087591,
-          "answerChannelType": 1
-        }],
-        "showStatus": 2,
-        "userName": "暗燃诗意",
-        "userId": 1557079325,
+        "showStatus": 1,
+        "userName": "柒捌0",
+        "userId": 28636297,
         "appendNumber": 0,
-        "totalReply": 1,
-        "createTime": "2023-04-20",
-        "sourceType": 1,
-        "anonymous": 1,
-        "spuId": 3087591,
-        "reviewStatus": 2,
+        "totalReply": 0,
+        "createTime": "2022-08-08",
+        "sourceType": 0,
+        "anonymous": 0,
+        "reviewStatus": 1,
+        "spuId": 2905539,
         "aiTagId": 0,
         "noAnswerQuestionShowText": "点击回复参与讨论",
         "status": 4
@@ -1704,119 +2478,1407 @@
       "msg": "success",
       "code": 200,
       "retryScene": "RETRY_NO",
-      "maxFinalPrice": 79900,
+      "maxFinalPrice": 131900,
       "layerRetry": false,
       "layer": {
         "showOpenBtnText": "去开通",
-        "totalMinPrice": 79900,
         "hasBidForLayerType": true,
+        "totalMinPrice": 63100,
         "layerMultiBuy": {
           "maxNumToast": "超过数量可选范围",
           "multiBuyMaxNum": 5,
           "minNumToast": "低于数量最小范围"
         },
         "skuInfoList": [{
-          "skuId": 613051283,
-          "tradeChannelInfoList": [{
-            "tradeDesc": "轻微使用",
-            "ninetyFiveUrlType": 1,
-            "isSecKillChannel": false,
-            "price": 38700,
-            "linkUrl": "https://m.dewu.com/router/mini/open?isolate=0&miniId=mini_95fen&options=%7B%22params%22%3A%7B%22button_copywriting%22%3A%22%E8%BD%BB%E5%BE%AE%E4%BD%BF%E7%94%A8%22%2C%22device_id%22%3A%2228C32CEA-3AF6-4DA2-AC09-944652005270%22%2C%22expiration_dates%22%3A%22%E7%BA%A61-3%E5%A4%A9%E5%88%B0%22%2C%22goods_id%22%3A%22AKj4a0vMO%22%2C%22goods_price%22%3A387%2C%22sp_beauty_title%22%3A%22a%22%7D%2C%22pt%22%3A%22154%22%2C%22source%22%3A%22duAppService_orderConfirm%22%7D&source=duAppService_orderConfirm",
-            "tradeType": 95,
-            "arrivalTimeText": "约1-3天到",
-            "background": "https://s.95fenapp.com/jiuwu/imgs/2023032/a81af600c3f43851df7c58ecf942ebbe_207x147.png"
-          }]
-        }, {
           "postageDiscountDTO": {
             "discountAmt": 0,
-            "expireTime": 4867055670283,
+            "expireTime": 4867062429223,
             "newUserLabel": false,
             "startTime": 1667145600000,
             "label": "包邮",
             "title": "包邮",
             "type": 3,
-            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-25 23:54:30；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
           },
           "discountHeadTitle": "优惠明细",
-          "skuId": 613051286,
-          "tradeType": 4,
+          "skuId": 611961565,
+          "tradeType": 3,
           "installmentInfo": {
             "discounts": [{
-              "fundType": 3,
               "payTool": 5,
+              "fundType": 3,
               "period": 3,
               "showTitle": "3期免息",
               "discountWay": 1,
               "discountType": 8,
               "maxInterest": true,
-              "benefit": 0,
-              "payToolType": 0
+              "payToolType": 0,
+              "benefit": 0
             }],
-            "trialText": "3期免息,266.33元/月起",
-            "instalmentText": "266.33元/月起",
-            "supportZeroTerm": false,
+            "trialText": "3期免息,414.00元/月起",
+            "instalmentText": "414.00元/月起",
             "freeText": "3期免息",
+            "supportZeroTerm": false,
             "sptHbfq": true,
             "trialLayerText": "3期免息",
             "installmentType": 2,
             "sptJwfq": true
           },
-          "saleInventoryNo": "SN101674523142PS25",
+          "saleInventoryNo": "SN102524579768PS25",
           "skuAdditionInfoDTO": {
-            "discountText": "得物包邮价"
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961565,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
           },
           "skuDiscountLabel": {
             "labelName": "包邮"
           },
           "optimalDiscountInfo": {
-            "activePrice": 79900,
-            "originalPrice": 79900,
-            "tradeTypes": [4],
-            "price": 79900,
+            "activePrice": 124200,
+            "originalPrice": 113900,
+            "tradeTypes": [3],
+            "price": 124200,
             "calcFormulaTitle": "当前购买可使用以下优惠",
             "discountTagsTitle": "优惠活动"
           },
-          "minPrice": 79900,
+          "minPrice": 124200,
           "tradeChannelInfoList": [{
             "saleType": 0,
+            "originPrice": 113900,
+            "tradeDesc": "美国直邮",
+            "itemDetailAgingMaxTime": 15,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 124200,
+            "price": 124200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102524579768PS25",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/56de7561-e8f6-68c8-1b28-ca0bcf7407b1-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约13-15天到",
+            "channelName": "美国直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961566,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,210.33元/月起",
+            "instalmentText": "210.33元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573174619PS03",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961566,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 63100,
+            "originalPrice": 57900,
+            "tradeTypes": [3],
+            "price": 63100,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 63100,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 57900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 63100,
+            "price": 63100,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573174619PS03",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961567,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573118521PS21",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961567,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573118521PS21",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961568,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573181383PS04",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961568,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 76900,
+            "tradeDesc": "保税直发",
+            "itemDetailAgingMaxTime": 4,
+            "isSecKillChannel": false,
+            "optimalPrice": 83800,
+            "price": 83800,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 3,
+              "parkCodes": ["YQNB01"]
+            },
+            "saleInventoryNo": "SN102558710841PS04",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "bidType": 23,
+            "includeTax": true,
+            "arrivalTimeText": "约3-4天到",
+            "channelName": "保税直发"
+          }, {
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573181383PS04",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961569,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573174813PS18",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961569,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573174813PS18",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }, {
+            "saleType": 0,
             "originPrice": 79900,
-            "tradeDesc": "全款预售",
-            "itemDetailAgingMaxTime": 25,
+            "tradeDesc": "",
+            "itemDetailAgingMaxTime": 3,
             "isSecKillChannel": false,
             "optimalPrice": 79900,
             "price": 79900,
-            "tradeType": 4,
+            "tradeType": 2,
             "agingExtInfo": {
-              "dataSource": 4
+              "dataSource": 3,
+              "parkCodes": ["YQZP01"]
             },
-            "saleInventoryNo": "SN101674523142PS25",
-            "bidType": 1,
+            "saleInventoryNo": "SN102578536901PS18",
+            "bidType": 5,
             "includeTax": false,
-            "arrivalTimeText": "约25天到",
-            "channelName": "全款预售"
+            "arrivalTimeText": "约2-3天到",
+            "channelName": "闪电直发"
           }],
           "multiBuy": true,
           "canOpenDiscountFloat": false
         }, {
-          "skuId": 613051287,
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961570,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573181562PS23",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961570,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
           "tradeChannelInfoList": [{
-            "tradeDesc": "轻微使用",
-            "ninetyFiveUrlType": 1,
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
             "isSecKillChannel": false,
-            "price": 59700,
-            "linkUrl": "https://m.dewu.com/router/mini/open?isolate=0&miniId=mini_95fen&options=%7B%22params%22%3A%7B%22button_copywriting%22%3A%22%E8%BD%BB%E5%BE%AE%E4%BD%BF%E7%94%A8%22%2C%22device_id%22%3A%2228C32CEA-3AF6-4DA2-AC09-944652005270%22%2C%22expiration_dates%22%3A%22%E7%BA%A61-3%E5%A4%A9%E5%88%B0%22%2C%22goods_id%22%3A%22yO8gXkQm9%22%2C%22goods_price%22%3A597%2C%22sp_beauty_title%22%3A%22a%22%7D%2C%22pt%22%3A%22154%22%2C%22source%22%3A%22duAppService_orderConfirm%22%7D&source=duAppService_orderConfirm",
-            "tradeType": 95,
-            "arrivalTimeText": "约1-3天到",
-            "background": "https://s.95fenapp.com/jiuwu/imgs/2023032/a81af600c3f43851df7c58ecf942ebbe_207x147.png"
-          }]
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573181562PS23",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961571,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573157181PS01",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961571,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573157181PS01",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961572,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573099801PS27",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961572,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573099801PS27",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961573,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573174920PS13",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961573,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 74900,
+            "tradeDesc": "保税直发",
+            "itemDetailAgingMaxTime": 4,
+            "isSecKillChannel": false,
+            "optimalPrice": 81700,
+            "price": 81700,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 3,
+              "parkCodes": ["YQNB01"]
+            },
+            "saleInventoryNo": "SN102558702424PS13",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "bidType": 23,
+            "includeTax": true,
+            "arrivalTimeText": "约3-4天到",
+            "channelName": "保税直发"
+          }, {
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573174920PS13",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961574,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573099894PS14",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961574,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573099894PS14",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961575,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,214.00元/月起",
+            "instalmentText": "214.00元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102573138063PS24",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961575,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 64200,
+            "originalPrice": 58900,
+            "tradeTypes": [3],
+            "price": 64200,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 64200,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 58900,
+            "tradeDesc": "日本直邮",
+            "itemDetailAgingMaxTime": 12,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 64200,
+            "price": 64200,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102573138063PS24",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/a09bc594-4098-8682-7e5d-5036af9b5785-36-36.png",
+            "bidType": 3,
+            "includeTax": true,
+            "arrivalTimeText": "约10-12天到",
+            "channelName": "日本直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961576,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,308.66元/月起",
+            "instalmentText": "308.66元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102333884943PS02",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961576,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 92600,
+            "originalPrice": 84900,
+            "tradeTypes": [3],
+            "price": 92600,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 92600,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 84900,
+            "tradeDesc": "美国直邮",
+            "itemDetailAgingMaxTime": 15,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 92600,
+            "price": 92600,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102333884943PS02",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/56de7561-e8f6-68c8-1b28-ca0bcf7407b1-36-36.png",
+            "bidType": 20,
+            "includeTax": true,
+            "arrivalTimeText": "约13-15天到",
+            "channelName": "美国直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961577,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,439.66元/月起",
+            "instalmentText": "439.66元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102132939529PS20",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961577,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 131900,
+            "originalPrice": 120900,
+            "tradeTypes": [3],
+            "price": 131900,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 131900,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 120900,
+            "tradeDesc": "美国直邮",
+            "itemDetailAgingMaxTime": 15,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 131900,
+            "price": 131900,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102132939529PS20",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/56de7561-e8f6-68c8-1b28-ca0bcf7407b1-36-36.png",
+            "bidType": 20,
+            "includeTax": true,
+            "arrivalTimeText": "约13-15天到",
+            "channelName": "美国直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 611961578,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,359.66元/月起",
+            "instalmentText": "359.66元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102133145332PS05",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 611961578,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 107900,
+            "originalPrice": 98900,
+            "tradeTypes": [3],
+            "price": 107900,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 107900,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 98900,
+            "tradeDesc": "美国直邮",
+            "itemDetailAgingMaxTime": 15,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 107900,
+            "price": 107900,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102133145332PS05",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/56de7561-e8f6-68c8-1b28-ca0bcf7407b1-36-36.png",
+            "bidType": 20,
+            "includeTax": true,
+            "arrivalTimeText": "约13-15天到",
+            "channelName": "美国直邮"
+          }],
+          "canOpenDiscountFloat": false
+        }, {
+          "postageDiscountDTO": {
+            "discountAmt": 0,
+            "expireTime": 4867062429223,
+            "newUserLabel": false,
+            "startTime": 1667145600000,
+            "label": "包邮",
+            "title": "包邮",
+            "type": 3,
+            "ruleDescription": ["限时包邮活动规则", "1、活动结束时间:2124-03-26 01:47:09；", "2、活动期间，用户购买指定商品，即可享受包邮活动；", "3、包邮活动仅限立即购买、极速发货、闪电直发、全款预售、品牌专供、海外直邮、品牌保税、虚拟商品、品牌官方、直发渠道；", "4、因买家个人原因发起退货，买家需承担退货产生的快递物流费用，得物APP有权直接从退款金额中扣除相应费用；", "5、根据规则活动中用户可享优惠次数有限制。"]
+          },
+          "discountHeadTitle": "优惠明细",
+          "skuId": 617773062,
+          "tradeType": 3,
+          "installmentInfo": {
+            "discounts": [{
+              "payTool": 5,
+              "fundType": 3,
+              "period": 3,
+              "showTitle": "3期免息",
+              "discountWay": 1,
+              "discountType": 8,
+              "maxInterest": true,
+              "payToolType": 0,
+              "benefit": 0
+            }],
+            "trialText": "3期免息,337.66元/月起",
+            "instalmentText": "337.66元/月起",
+            "freeText": "3期免息",
+            "supportZeroTerm": false,
+            "sptHbfq": true,
+            "trialLayerText": "3期免息",
+            "installmentType": 2,
+            "sptJwfq": true
+          },
+          "saleInventoryNo": "SN102568756908PS00",
+          "skuAdditionInfoDTO": {
+            "preTaxText": "≈",
+            "discountTextType": 999,
+            "afterPriceFirst": {
+              "sourceId": 617773062,
+              "sourceType": "SKU",
+              "labelType": "LABEL_INCLUDE_TAX_PRICE",
+              "labelShowName": {
+                "text": "含税价",
+                "showNameType": "DYNAMIC_BUYER"
+              }
+            },
+            "afterTaxText": "得物包邮含税价"
+          },
+          "skuDiscountLabel": {
+            "labelName": "包邮"
+          },
+          "optimalDiscountInfo": {
+            "activePrice": 101300,
+            "originalPrice": 92900,
+            "tradeTypes": [3],
+            "price": 101300,
+            "calcFormulaTitle": "当前购买可使用以下优惠",
+            "discountTagsTitle": "优惠活动"
+          },
+          "minPrice": 101300,
+          "tradeChannelInfoList": [{
+            "saleType": 0,
+            "originPrice": 92900,
+            "tradeDesc": "美国直邮",
+            "itemDetailAgingMaxTime": 15,
+            "isSecKillChannel": false,
+            "needLogoPre": true,
+            "optimalPrice": 101300,
+            "price": 101300,
+            "tradeType": 3,
+            "agingExtInfo": {
+              "dataSource": 1
+            },
+            "globalText": "全球购",
+            "saleInventoryNo": "SN102568756908PS00",
+            "channelAdditionInfoDTO": {
+              "explain": "已含税",
+              "symbol": "≈"
+            },
+            "flagUrl": "https://cdn.poizon.com/node-common/56de7561-e8f6-68c8-1b28-ca0bcf7407b1-36-36.png",
+            "bidType": 20,
+            "includeTax": true,
+            "arrivalTimeText": "约13-15天到",
+            "channelName": "美国直邮"
+          }],
+          "canOpenDiscountFloat": false
         }],
         "installmentExtend": {
           "oldCustomer": false,
           "jwApplyAndBindCardState": 1
         },
         "dayTimeThreshold": 200,
-        "serverTime": 1711382070276,
+        "serverTime": 1711388829209,
         "canShowArrivalBtn": true,
         "oldForNewInfo": {
           "shortIntro": "以旧换新",
@@ -1830,7 +3892,7 @@
         "priceDescriptionFlag": false,
         "intensifyNinetyFiveFlag": false,
         "timeThreshold": 100,
-        "spuId": 3087591,
+        "spuId": 2905539,
         "buyLayerType": 0
       }
     },
