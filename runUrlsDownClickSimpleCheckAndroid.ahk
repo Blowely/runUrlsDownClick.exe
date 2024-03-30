@@ -14,6 +14,10 @@ Numpad1::
     endLeftColorStack := 0
     prevLeftColor := 0
 
+    Loop, 1 {
+        scroll_stack++
+    }
+
     Loop, 4000 {
         ParseProduct(columnSide, scroll_stack)
         {
