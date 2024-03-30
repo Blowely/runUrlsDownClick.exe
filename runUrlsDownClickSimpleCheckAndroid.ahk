@@ -14,12 +14,6 @@ Numpad1::
     endLeftColorStack := 0
     prevLeftColor := 0
 
-    Loop, 2790 {
-        Send {WheelDown}
-        scroll_stack := scroll_stack + 1
-        Sleep, 300
-    }
-
     Loop, 4000 {
         ParseProduct(columnSide, scroll_stack)
         {
@@ -139,7 +133,7 @@ Numpad1::
 
             ;Sleep, 800
 
-            SendMouse_AbsoluteMove(1600, 247)
+            SendMouse_AbsoluteMove(1620, 187)
             Sleep, 500
             SendMouse_LeftClick()
             Sleep, 300
