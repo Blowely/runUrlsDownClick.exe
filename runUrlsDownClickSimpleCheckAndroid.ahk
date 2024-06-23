@@ -5,7 +5,7 @@ Esc::ExitApp
 
 
 
-Numpad1::
+Space::
     scroll_stack := 0
 ;    loop_val := 2500 - (scroll_stack / 3 * 2 - 2) // need to solve
 
